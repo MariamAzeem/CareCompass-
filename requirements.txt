@@ -3,7 +3,7 @@ streamlit>=1.40
 # Pin setuptools to a compatible version for this project.
 setuptools<81
 # Tested with Python 3.11/3.12. Use a supported interpreter; CrewAI 0.11.2 expects a compatible Pydantic 2.x stack.
-crewai[litellm]==0.11.2
+crewai[litellm]==1.15.23
 supabase>=2.9
 requests
 beautifulsoup4
