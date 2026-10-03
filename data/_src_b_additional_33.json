@@ -1,0 +1,1058 @@
+{
+  "_meta": {
+    "status": "RESEARCHED ADDITIONAL RECORDS - structured from authoritative medical sources",
+    "record_count": 33,
+    "excluded_existing_record_count": 21,
+    "note": "These records are structured knowledge-base abstractions for patient routing. They are not diagnoses or prescriptions. Baseline tests are clinician-directed considerations, not mandatory tests.",
+    "source_policy": "Sources limited to NHS, WHO and Mayo Clinic pages identified in the source field. Verify source pages and clinically review the records before production deployment.",
+    "nhs_attribution": "Information from the NHS website is licensed under the Open Government Licence v3.0."
+  },
+  "records": [
+    {
+      "id": "constipation",
+      "symptom_keywords": [
+        "constipation",
+        "hard stool",
+        "difficulty passing stool",
+        "infrequent bowel movements",
+        "qabz",
+        "qabziyat",
+        "قبض"
+      ],
+      "care_category": "Constipation / bowel habit change",
+      "urgency": "routine",
+      "red_flags": [
+        "blood in stool",
+        "unintentional weight loss",
+        "persistent abdominal pain",
+        "sudden change in bowel habits",
+        "persistent vomiting or severe abdominal swelling"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "Children and older adults may need age-specific assessment; infants require pediatric advice.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Usually clinical assessment only",
+        "Blood tests or other investigations if persistent or another cause is suspected"
+      ],
+      "source": "NHS: Constipation - https://www.nhs.uk/conditions/constipation/"
+    },
+    {
+      "id": "migraine",
+      "symptom_keywords": [
+        "migraine",
+        "throbbing headache",
+        "one-sided headache",
+        "nausea with headache",
+        "light sensitivity",
+        "aura",
+        "aadha sar dard",
+        "آدھا سر درد"
+      ],
+      "care_category": "Migraine / recurrent headache pattern",
+      "urgency": "routine",
+      "red_flags": [
+        "sudden extremely painful headache",
+        "new weakness or numbness",
+        "speech or memory problems",
+        "vision loss or double vision",
+        "seizure",
+        "confusion",
+        "headache after head injury",
+        "very high temperature with meningitis symptoms"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Children and adolescents with recurrent migraine should be assessed by a clinician experienced in pediatric headache.",
+      "gender_notes": "Pregnancy or recent childbirth with a severe migraine-like headache needs urgent assessment.",
+      "baseline_tests": [
+        "Clinical history and neurological examination",
+        "Brain imaging only when clinically indicated"
+      ],
+      "source": "NHS: Migraine - https://www.nhs.uk/conditions/migraine/"
+    },
+    {
+      "id": "sinusitis",
+      "symptom_keywords": [
+        "sinusitis",
+        "sinus infection",
+        "facial pressure",
+        "facial pain",
+        "blocked nose",
+        "green mucus",
+        "yellow mucus",
+        "naak band",
+        "sinus dard"
+      ],
+      "care_category": "Sinus / upper airway complaint",
+      "urgency": "routine",
+      "red_flags": [
+        "swelling around the eyes",
+        "severe headache",
+        "vision changes",
+        "very high fever",
+        "confusion",
+        "rapid deterioration"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "ENT Specialist",
+      "age_notes": "Young children with feeding difficulty or breathing through the mouth should be assessed by a clinician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical assessment of symptoms and nasal/face examination",
+        "Further imaging or specialist assessment if persistent, recurrent or complicated"
+      ],
+      "source": "NHS: Sinusitis (sinus infection) - https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
+    },
+    {
+      "id": "hay_fever",
+      "symptom_keywords": [
+        "hay fever",
+        "seasonal allergy",
+        "sneezing",
+        "itchy eyes",
+        "watery eyes",
+        "runny nose",
+        "pollen allergy",
+        "naak behna",
+        "chheenkain"
+      ],
+      "care_category": "Allergic rhinitis / seasonal allergy",
+      "urgency": "routine",
+      "red_flags": [
+        "difficulty breathing",
+        "swelling of lips tongue or throat",
+        "fainting",
+        "rapidly worsening allergic reaction"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Allergist / Immunologist",
+      "age_notes": "Children can develop hay fever; persistent symptoms should be assessed by a clinician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Usually clinical assessment",
+        "Allergy testing if the diagnosis or trigger is unclear and testing is clinically indicated"
+      ],
+      "source": "NHS: Hay fever - https://www.nhs.uk/conditions/hay-fever/"
+    },
+    {
+      "id": "allergic_reaction",
+      "symptom_keywords": [
+        "allergy",
+        "allergic reaction",
+        "hives",
+        "urticaria",
+        "itchy rash",
+        "food allergy",
+        "medicine allergy",
+        "allergy reaction",
+        "allergy ho gai"
+      ],
+      "care_category": "Allergic reaction",
+      "urgency": "urgent",
+      "red_flags": [
+        "swelling of lips tongue face or throat",
+        "difficulty breathing",
+        "wheezing",
+        "fainting",
+        "severe dizziness",
+        "rapidly worsening symptoms"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Allergist / Immunologist",
+      "age_notes": "Children with suspected food or medicine allergy should be assessed by a pediatric clinician; severe reactions require emergency care.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical assessment",
+        "Allergy testing when indicated"
+      ],
+      "source": "Mayo Clinic: Allergies - https://www.mayoclinic.org/diseases-conditions/allergies/symptoms-causes/syc-20351497"
+    },
+    {
+      "id": "eczema",
+      "symptom_keywords": [
+        "eczema",
+        "atopic eczema",
+        "dry itchy skin",
+        "itchy patches",
+        "dry skin",
+        "khushk khujli wali jild",
+        "eczema rash"
+      ],
+      "care_category": "Eczema / inflammatory skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "blistered or crusty skin",
+        "pus-filled spots",
+        "painful swollen warm skin",
+        "rapid worsening",
+        "fever or feeling very unwell"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Dermatologist",
+      "age_notes": "Atopic eczema commonly begins in childhood; children should be assessed if symptoms are persistent or severe.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical skin examination",
+        "Additional testing only if another diagnosis or infection is suspected"
+      ],
+      "source": "NHS: Atopic eczema - https://www.nhs.uk/conditions/atopic-eczema/"
+    },
+    {
+      "id": "acne",
+      "symptom_keywords": [
+        "acne",
+        "pimples",
+        "blackheads",
+        "whiteheads",
+        "painful spots",
+        "oily skin",
+        "face pimples",
+        "muhasay",
+        "مہاسے"
+      ],
+      "care_category": "Acne / common skin complaint",
+      "urgency": "routine",
+      "red_flags": [
+        "deep painful lumps",
+        "rapidly worsening skin infection",
+        "significant scarring",
+        "major impact on mental health"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Dermatologist",
+      "age_notes": "Acne is common in adolescents but can occur at any age; severe or scarring acne warrants medical assessment.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Usually clinical skin examination",
+        "Further tests only when another underlying cause is suspected"
+      ],
+      "source": "NHS: Acne - https://www.nhs.uk/conditions/acne/"
+    },
+    {
+      "id": "hypertension",
+      "symptom_keywords": [
+        "high blood pressure",
+        "hypertension",
+        "raised BP",
+        "blood pressure high",
+        "BP high",
+        "high bp",
+        "بلڈ پریشر زیادہ"
+      ],
+      "care_category": "High blood pressure / hypertension screening",
+      "urgency": "routine",
+      "red_flags": [
+        "chest pain",
+        "severe shortness of breath",
+        "new neurological deficit",
+        "confusion",
+        "severe visual symptoms"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Cardiologist",
+      "age_notes": "Risk increases with age; blood pressure screening is important in adults.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood pressure measurement",
+        "Repeat or ambulatory/home blood pressure measurement when clinically indicated",
+        "Blood and urine tests may be used to assess associated risk or causes"
+      ],
+      "source": "NHS: High blood pressure - https://www.nhs.uk/conditions/high-blood-pressure/"
+    },
+    {
+      "id": "hypotension",
+      "symptom_keywords": [
+        "low blood pressure",
+        "hypotension",
+        "dizziness on standing",
+        "lightheadedness",
+        "fainting",
+        "BP low",
+        "kam blood pressure",
+        "بلڈ پریشر کم"
+      ],
+      "care_category": "Low blood pressure / hypotension",
+      "urgency": "routine",
+      "red_flags": [
+        "fainting",
+        "confusion",
+        "severe weakness",
+        "chest pain",
+        "shortness of breath",
+        "signs of shock"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Cardiologist",
+      "age_notes": "Older adults and people taking blood-pressure medicines may need assessment for postural hypotension.",
+      "gender_notes": "Pregnancy can be associated with lower blood pressure and should be assessed in context.",
+      "baseline_tests": [
+        "Blood pressure measurement",
+        "Blood pressure measurement after changing position when postural hypotension is suspected",
+        "Blood tests or ECG if an underlying cause is suspected"
+      ],
+      "source": "NHS: Low blood pressure (hypotension) - https://www.nhs.uk/conditions/low-blood-pressure-hypotension/"
+    },
+    {
+      "id": "kidney_stones",
+      "symptom_keywords": [
+        "kidney stone",
+        "kidney stones",
+        "flank pain",
+        "loin pain",
+        "groin pain with urine",
+        "blood in urine with pain",
+        "pathri",
+        "gurday ki pathri",
+        "گردے کی پتھری"
+      ],
+      "care_category": "Possible kidney stone / urinary tract stone",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe pain",
+        "fever or chills",
+        "vomiting",
+        "blood in urine",
+        "reduced urine output",
+        "severe weakness"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Urologist",
+      "age_notes": "Children and adolescents with suspected stones need pediatric assessment and age-appropriate imaging.",
+      "gender_notes": "Pregnancy changes the preferred imaging approach; urgent clinical assessment is appropriate.",
+      "baseline_tests": [
+        "Urine test",
+        "Blood tests for kidney function and relevant substances",
+        "Ultrasound or CT when clinically indicated"
+      ],
+      "source": "NHS: Kidney stones - https://www.nhs.uk/conditions/kidney-stones/"
+    },
+    {
+      "id": "indigestion",
+      "symptom_keywords": [
+        "indigestion",
+        "dyspepsia",
+        "heartburn after meals",
+        "bloating after eating",
+        "burping",
+        "acid taste",
+        "bad hazmi",
+        "badhazmi",
+        "بدہضمی"
+      ],
+      "care_category": "Indigestion / dyspepsia",
+      "urgency": "routine",
+      "red_flags": [
+        "difficulty swallowing",
+        "vomiting blood",
+        "bloody or black stool",
+        "unintentional weight loss",
+        "persistent vomiting",
+        "severe pain"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "Persistent or recurrent symptoms in older adults warrant medical assessment.",
+      "gender_notes": "Pregnancy can cause indigestion; medication and investigation choices should be clinician-guided.",
+      "baseline_tests": [
+        "Usually clinical assessment",
+        "H. pylori testing if clinically indicated",
+        "Endoscopy if persistent symptoms or alarm features warrant it"
+      ],
+      "source": "NHS: Indigestion - https://www.nhs.uk/conditions/indigestion/"
+    },
+    {
+      "id": "piles_haemorrhoids",
+      "symptom_keywords": [
+        "piles",
+        "haemorrhoids",
+        "hemorrhoids",
+        "bright red blood after stool",
+        "itchy anus",
+        "anal lump",
+        "anal pain",
+        "bawaseer",
+        "بواسیر"
+      ],
+      "care_category": "Piles / haemorrhoids",
+      "urgency": "routine",
+      "red_flags": [
+        "heavy or persistent rectal bleeding",
+        "painless rectal bleeding",
+        "very high temperature with feeling unwell",
+        "pus",
+        "severe worsening pain"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Colorectal Surgeon",
+      "age_notes": "Persistent rectal bleeding should not automatically be attributed to piles, particularly in older adults.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "Further examination or tests if the diagnosis is uncertain or bleeding needs another cause excluded"
+      ],
+      "source": "NHS: Piles (haemorrhoids) - https://www.nhs.uk/conditions/piles-haemorrhoids/"
+    },
+    {
+      "id": "sprain_strain",
+      "symptom_keywords": [
+        "sprain",
+        "strain",
+        "twisted ankle",
+        "muscle strain",
+        "swollen joint after injury",
+        "bruise after injury",
+        "moch aana",
+        "moche",
+        "موچ"
+      ],
+      "care_category": "Musculoskeletal injury / sprain or strain",
+      "urgency": "routine",
+      "red_flags": [
+        "deformity",
+        "numbness or tingling",
+        "blue or grey skin",
+        "cold limb",
+        "inability to bear weight",
+        "severe or rapidly worsening swelling"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Orthopedic Specialist / Physiotherapist",
+      "age_notes": "Children with significant injuries should be assessed because growth plates can be affected.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Physical examination",
+        "X-ray if fracture is suspected"
+      ],
+      "source": "NHS: Sprains and strains - https://www.nhs.uk/conditions/sprains-and-strains/"
+    },
+    {
+      "id": "burns_scalds",
+      "symptom_keywords": [
+        "burn",
+        "scald",
+        "hot water burn",
+        "thermal burn",
+        "chemical burn",
+        "jalna",
+        "jal gaya",
+        "جلنے کا زخم"
+      ],
+      "care_category": "Burn / scald injury",
+      "urgency": "urgent",
+      "red_flags": [
+        "large or deep burn",
+        "burn on face genitals or buttocks",
+        "chemical burn",
+        "electrical burn",
+        "difficulty breathing",
+        "extensive blistering"
+      ],
+      "specialist": "Emergency Department",
+      "alt_specialist": "Burns / Plastic Surgery Specialist",
+      "age_notes": "Children with burns should receive prompt clinical assessment; young children can deteriorate with significant burns.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical assessment of burn depth and extent",
+        "Blood tests or imaging only when clinically indicated for significant burns"
+      ],
+      "source": "NHS: Burns and scalds - https://www.nhs.uk/conditions/burns-and-scalds/"
+    },
+    {
+      "id": "mouth_ulcer",
+      "symptom_keywords": [
+        "mouth ulcer",
+        "oral ulcer",
+        "canker sore",
+        "mouth sore",
+        "painful ulcer in mouth",
+        "munh ka chhala",
+        "munh ke chalay",
+        "منہ کے چھالے"
+      ],
+      "care_category": "Mouth ulcer / oral sore",
+      "urgency": "routine",
+      "red_flags": [
+        "ulcer lasting longer than 3 weeks",
+        "recurrent severe ulcers",
+        "difficulty swallowing",
+        "significant bleeding",
+        "unexplained weight loss"
+      ],
+      "specialist": "Dentist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Children with recurrent or persistent mouth ulcers may need pediatric or dental assessment.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Oral examination",
+        "Blood tests if ulcers are recurrent, persistent or an underlying deficiency/systemic condition is suspected"
+      ],
+      "source": "NHS: Mouth ulcers - https://www.nhs.uk/conditions/mouth-ulcers/"
+    },
+    {
+      "id": "cold_sore",
+      "symptom_keywords": [
+        "cold sore",
+        "lip blister",
+        "fever blister",
+        "tingling lip",
+        "itching lip",
+        "burning lip",
+        "honton par chhala",
+        "ہونٹ پر چھالا"
+      ],
+      "care_category": "Cold sore / oral herpes symptom",
+      "urgency": "routine",
+      "red_flags": [
+        "very large or painful lesions",
+        "not starting to heal within 10 days",
+        "eye involvement",
+        "newborn exposure",
+        "weakened immune system"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Dermatologist",
+      "age_notes": "A newborn exposed to an active cold sore requires urgent medical advice.",
+      "gender_notes": "Pregnancy warrants clinician advice if lesions are severe or recurrent.",
+      "baseline_tests": [
+        "Usually clinical examination",
+        "Swab or other testing only if the diagnosis is uncertain"
+      ],
+      "source": "NHS: Cold sores - https://www.nhs.uk/conditions/cold-sores/"
+    },
+    {
+      "id": "conjunctivitis",
+      "symptom_keywords": [
+        "conjunctivitis",
+        "pink eye",
+        "red eye with discharge",
+        "sticky eye",
+        "itchy red eye",
+        "aankh ka infection",
+        "آنکھ کا انفیکشن"
+      ],
+      "care_category": "Conjunctivitis / red eye",
+      "urgency": "routine",
+      "red_flags": [
+        "severe eye pain",
+        "vision loss or change",
+        "marked light sensitivity",
+        "eye injury or chemical exposure",
+        "severe swelling around the eye"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Ophthalmologist",
+      "age_notes": "Newborns with red or sticky eyes require prompt medical assessment.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Eye examination",
+        "Eye swab only when clinically indicated, such as selected persistent or unusual infections"
+      ],
+      "source": "NHS: Conjunctivitis - https://www.nhs.uk/conditions/conjunctivitis/"
+    },
+    {
+      "id": "vertigo",
+      "symptom_keywords": [
+        "vertigo",
+        "room spinning",
+        "spinning sensation",
+        "balance problem",
+        "chakkar ghoomna",
+        "sar ghoomna",
+        "چکر آنا"
+      ],
+      "care_category": "Vertigo / balance disturbance",
+      "urgency": "routine",
+      "red_flags": [
+        "double vision",
+        "loss of vision",
+        "new hearing loss",
+        "difficulty speaking",
+        "arm or leg weakness",
+        "numbness or tingling",
+        "severe headache"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "ENT Specialist / Neurologist",
+      "age_notes": "Older adults with new vertigo and falls need prompt assessment.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical balance and neurological assessment",
+        "Positional testing when appropriate",
+        "Hearing assessment or imaging if clinically indicated"
+      ],
+      "source": "NHS: Vertigo - https://www.nhs.uk/conditions/vertigo/"
+    },
+    {
+      "id": "insomnia",
+      "symptom_keywords": [
+        "insomnia",
+        "difficulty sleeping",
+        "cannot sleep",
+        "waking at night",
+        "early waking",
+        "sleep problem",
+        "neend nahi aati",
+        "نیند نہیں آتی"
+      ],
+      "care_category": "Sleep difficulty / insomnia",
+      "urgency": "routine",
+      "red_flags": [
+        "severe daytime impairment",
+        "suicidal thoughts",
+        "confusion",
+        "symptoms suggesting severe sleep apnoea or breathing pauses"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Sleep Medicine Specialist",
+      "age_notes": "Children and adolescents with persistent sleep problems should be assessed using age-appropriate sleep guidance.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Sleep and medical history",
+        "Sleep diary when useful",
+        "Sleep study only when another sleep disorder such as sleep apnoea is suspected"
+      ],
+      "source": "NHS: Insomnia - https://www.nhs.uk/conditions/insomnia/"
+    },
+    {
+      "id": "anaemia",
+      "symptom_keywords": [
+        "anaemia",
+        "anemia",
+        "low haemoglobin",
+        "low hemoglobin",
+        "fatigue with pallor",
+        "dizziness with tiredness",
+        "khoon ki kami",
+        "خون کی کمی"
+      ],
+      "care_category": "Anaemia / low haemoglobin symptom pattern",
+      "urgency": "routine",
+      "red_flags": [
+        "chest pain",
+        "severe shortness of breath",
+        "fainting",
+        "rapid heartbeat with severe weakness",
+        "significant bleeding"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Hematologist",
+      "age_notes": "Children and pregnant people require age- and pregnancy-specific haemoglobin assessment.",
+      "gender_notes": "Heavy menstrual bleeding can contribute to iron deficiency and should be assessed when relevant.",
+      "baseline_tests": [
+        "Full blood count / haemoglobin",
+        "Iron studies when iron deficiency is suspected",
+        "Further tests guided by the suspected cause"
+      ],
+      "source": "WHO: Anaemia - https://www.who.int/news-room/fact-sheets/detail/ANAEMIA"
+    },
+    {
+      "id": "asthma",
+      "symptom_keywords": [
+        "asthma",
+        "wheezing",
+        "recurrent wheeze",
+        "chest tightness",
+        "breathlessness with triggers",
+        "dama",
+        "دمہ"
+      ],
+      "care_category": "Asthma / variable airway symptoms",
+      "urgency": "routine",
+      "red_flags": [
+        "severe difficulty breathing",
+        "rapid worsening",
+        "no improvement after prescribed reliever",
+        "inability to speak normally because of breathlessness"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Asthma commonly begins in childhood; children need pediatric assessment when symptoms are recurrent.",
+      "gender_notes": "Pregnancy requires review of asthma control and treatment by a clinician.",
+      "baseline_tests": [
+        "Clinical assessment and chest examination",
+        "Spirometry or another breathing test when appropriate",
+        "Peak-flow monitoring may be used"
+      ],
+      "source": "NHS: Asthma - https://www.nhs.uk/conditions/asthma/"
+    },
+    {
+      "id": "pneumonia",
+      "symptom_keywords": [
+        "pneumonia",
+        "cough with fever",
+        "breathing pain",
+        "chest infection with fever",
+        "productive cough and fever",
+        "نمونیا",
+        "نمونیا کی علامات"
+      ],
+      "care_category": "Pneumonia / lower respiratory infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe shortness of breath",
+        "blue or grey lips or skin",
+        "confusion",
+        "severe chest pain",
+        "rapid deterioration"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Young children, adults over 65 and people with significant heart or lung disease have higher risk of severe pneumonia.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination and oxygen assessment",
+        "Chest X-ray when clinically indicated",
+        "Blood tests when needed to assess severity or alternative diagnoses"
+      ],
+      "source": "WHO: Pneumonia - https://www.who.int/health-topics/pneumonia"
+    },
+    {
+      "id": "tuberculosis",
+      "symptom_keywords": [
+        "tuberculosis",
+        "TB",
+        "cough more than 3 weeks",
+        "night sweats",
+        "weight loss with cough",
+        "blood in sputum",
+        "tapadiki",
+        "ٹی بی"
+      ],
+      "care_category": "Possible tuberculosis / prolonged respiratory complaint",
+      "urgency": "urgent",
+      "red_flags": [
+        "coughing blood",
+        "severe breathing difficulty",
+        "confusion",
+        "seizure",
+        "new weakness or loss of movement"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist / TB Specialist",
+      "age_notes": "Children under 5 and people with weakened immune systems have increased risk of serious TB disease.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Rapid molecular diagnostic test when TB disease is suspected",
+        "Sputum testing",
+        "Chest X-ray or other imaging as clinically indicated"
+      ],
+      "source": "WHO: Tuberculosis - https://www.who.int/health-topics/tuberculosis"
+    },
+    {
+      "id": "malaria",
+      "symptom_keywords": [
+        "malaria",
+        "fever with chills",
+        "malarial fever",
+        "fever after mosquito exposure",
+        "bukhar aur kapkapi",
+        "ملیریا"
+      ],
+      "care_category": "Malaria / acute febrile illness",
+      "urgency": "urgent",
+      "red_flags": [
+        "confusion",
+        "seizures",
+        "difficulty breathing",
+        "jaundice",
+        "dark or bloody urine",
+        "severe weakness",
+        "impaired consciousness"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Infants, children under 5 and pregnant people are at higher risk of severe malaria.",
+      "gender_notes": "Pregnancy increases the risk of severe malaria and needs prompt medical assessment.",
+      "baseline_tests": [
+        "Malaria diagnostic test / blood test",
+        "Further blood tests to assess severity when clinically indicated"
+      ],
+      "source": "WHO: Malaria - https://www.who.int/news-room/fact-sheets/detail/malaria"
+    },
+    {
+      "id": "dengue",
+      "symptom_keywords": [
+        "dengue",
+        "high fever with body aches",
+        "pain behind eyes",
+        "dengue fever",
+        "rash with fever",
+        "muscle joint pain with fever",
+        "ڈینگی"
+      ],
+      "care_category": "Dengue / acute febrile illness",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe abdominal pain",
+        "persistent vomiting",
+        "rapid breathing",
+        "bleeding gums or nose",
+        "blood in vomit or stool",
+        "marked weakness or restlessness",
+        "pale cold skin"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Children require prompt assessment if warning signs develop.",
+      "gender_notes": "Pregnancy warrants prompt medical assessment for suspected dengue.",
+      "baseline_tests": [
+        "Dengue laboratory testing as clinically indicated and according to illness timing",
+        "CBC / platelet count may be used to monitor illness severity"
+      ],
+      "source": "WHO: Dengue and severe dengue - https://www.who.int/health-topics/dengue-and-severe-dengue"
+    },
+    {
+      "id": "influenza",
+      "symptom_keywords": [
+        "influenza",
+        "flu",
+        "sudden fever cough",
+        "body aches with fever",
+        "seasonal flu",
+        "flu symptoms",
+        "فلو",
+        "انفلوئنزا"
+      ],
+      "care_category": "Influenza / acute viral respiratory infection",
+      "urgency": "routine",
+      "red_flags": [
+        "difficulty breathing",
+        "chest pain",
+        "confusion",
+        "severe or rapidly worsening illness",
+        "dehydration"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Very young children and older adults are at higher risk of severe influenza.",
+      "gender_notes": "Pregnant people are a higher-risk group and should seek medical advice promptly when significantly unwell.",
+      "baseline_tests": [
+        "Usually clinical assessment",
+        "Influenza testing when clinically indicated, especially when the result would change management"
+      ],
+      "source": "WHO: Influenza (seasonal) - https://www.who.int/health-topics/influenza-seasonal"
+    },
+    {
+      "id": "covid19",
+      "symptom_keywords": [
+        "COVID-19",
+        "covid",
+        "loss of taste",
+        "loss of smell with fever",
+        "covid symptoms",
+        "coronavirus symptoms",
+        "کووڈ",
+        "کورونا"
+      ],
+      "care_category": "COVID-19 / acute viral infection",
+      "urgency": "routine",
+      "red_flags": [
+        "difficulty breathing",
+        "chest pain",
+        "confusion",
+        "loss of speech or mobility",
+        "severe deterioration"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Older adults and people with underlying conditions may have higher risk of severe disease.",
+      "gender_notes": "Pregnancy can alter risk and treatment considerations; seek clinician advice when unwell.",
+      "baseline_tests": [
+        "COVID-19 diagnostic testing when clinically indicated",
+        "Oxygen saturation assessment when respiratory symptoms are present"
+      ],
+      "source": "WHO: Coronavirus disease (COVID-19) - https://www.who.int/health-topics/coronavirus"
+    },
+    {
+      "id": "gallstones",
+      "symptom_keywords": [
+        "gallstones",
+        "gallstone pain",
+        "right upper abdominal pain",
+        "pain after fatty meal",
+        "biliary colic",
+        "pathri in gallbladder",
+        "پتے کی پتھری"
+      ],
+      "care_category": "Gallbladder / possible gallstones",
+      "urgency": "urgent",
+      "red_flags": [
+        "sudden severe abdominal pain",
+        "pain spreading to the back with vomiting",
+        "high fever or chills",
+        "yellow skin or eyes"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist / General Surgeon",
+      "age_notes": "Children with suspected gallstones need pediatric assessment.",
+      "gender_notes": "Gallstones are more common in women; pregnancy may affect investigation choices.",
+      "baseline_tests": [
+        "Abdominal ultrasound",
+        "Blood tests when complications or liver/biliary disease are suspected"
+      ],
+      "source": "NHS: Gallstones - https://www.nhs.uk/conditions/gallstones/"
+    },
+    {
+      "id": "gout",
+      "symptom_keywords": [
+        "gout",
+        "sudden severe joint pain",
+        "big toe pain",
+        "hot swollen joint",
+        "red joint",
+        "gout attack",
+        "nakhun ke paas joint pain",
+        "گاؤٹ"
+      ],
+      "care_category": "Acute inflammatory joint pain / possible gout",
+      "urgency": "urgent",
+      "red_flags": [
+        "first severe swollen joint",
+        "high fever with hot swollen joint",
+        "rapidly worsening pain",
+        "inability to use the joint"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Rheumatologist",
+      "age_notes": "Children with suspected gout need specialist assessment because gout is uncommon in children.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical joint assessment",
+        "Serum urate may be measured",
+        "Joint fluid examination may be required when diagnosis is uncertain or infection must be excluded"
+      ],
+      "source": "NHS: Gout - https://www.nhs.uk/conditions/gout/"
+    },
+    {
+      "id": "jaundice",
+      "symptom_keywords": [
+        "jaundice",
+        "yellow eyes",
+        "yellow skin",
+        "dark urine",
+        "pale stool",
+        "peelia",
+        "peeli aankhen",
+        "یرقان"
+      ],
+      "care_category": "Jaundice / possible liver or biliary disorder",
+      "urgency": "urgent",
+      "red_flags": [
+        "new yellowing of skin or eyes",
+        "severe abdominal pain",
+        "fever or chills",
+        "confusion",
+        "vomiting blood",
+        "marked weakness"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist / Hepatologist",
+      "age_notes": "Newborn jaundice has a separate assessment pathway and should be evaluated by a pediatric/newborn clinician.",
+      "gender_notes": "Pregnancy-associated jaundice requires prompt medical assessment.",
+      "baseline_tests": [
+        "Liver function blood tests",
+        "Bilirubin measurement",
+        "Additional blood tests and abdominal imaging guided by the suspected cause"
+      ],
+      "source": "NHS: Jaundice - https://www.nhs.uk/conditions/jaundice/"
+    },
+    {
+      "id": "leg_oedema",
+      "symptom_keywords": [
+        "swollen ankles",
+        "swollen feet",
+        "leg swelling",
+        "ankle oedema",
+        "pedon mein soojan",
+        "tangon mein soojan",
+        "ٹانگوں میں سوجن"
+      ],
+      "care_category": "Leg swelling / oedema",
+      "urgency": "urgent",
+      "red_flags": [
+        "sudden one-sided swelling",
+        "severe pain or redness",
+        "shortness of breath",
+        "chest tightness or pain",
+        "coughing blood",
+        "faintness or confusion"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Cardiologist / Nephrologist",
+      "age_notes": "Older adults and people with heart, kidney or liver conditions need assessment of the underlying cause.",
+      "gender_notes": "Pregnancy can cause oedema, but sudden or severe swelling needs prompt assessment.",
+      "baseline_tests": [
+        "Clinical examination and blood pressure",
+        "Blood tests for kidney/liver/heart-related causes when indicated",
+        "ECG or imaging when clinically indicated"
+      ],
+      "source": "NHS: Swollen ankles, feet and legs (oedema) - https://www.nhs.uk/conditions/oedema/"
+    },
+    {
+      "id": "hypothyroidism",
+      "symptom_keywords": [
+        "underactive thyroid",
+        "hypothyroidism",
+        "tiredness weight gain",
+        "feeling cold",
+        "constipation with fatigue",
+        "hair loss with fatigue",
+        "thyroid low",
+        "thyroid kam",
+        "تھائیرائڈ کم"
+      ],
+      "care_category": "Possible underactive thyroid",
+      "urgency": "routine",
+      "red_flags": [
+        "severe confusion",
+        "extreme drowsiness",
+        "very low body temperature",
+        "marked deterioration"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Endocrinologist",
+      "age_notes": "Children and adolescents with suspected thyroid disease require age-specific assessment.",
+      "gender_notes": "Pregnancy or plans for pregnancy require prompt thyroid assessment and monitoring.",
+      "baseline_tests": [
+        "Thyroid-stimulating hormone (TSH)",
+        "Free thyroxine (T4) when indicated",
+        "Further thyroid tests based on clinician assessment"
+      ],
+      "source": "NHS: Underactive thyroid (hypothyroidism) - https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/"
+    },
+    {
+      "id": "hyperthyroidism",
+      "symptom_keywords": [
+        "overactive thyroid",
+        "hyperthyroidism",
+        "palpitations with weight loss",
+        "heat intolerance",
+        "tremor with weight loss",
+        "excess sweating",
+        "thyroid high",
+        "thyroid zyada",
+        "تھائیرائڈ زیادہ"
+      ],
+      "care_category": "Possible overactive thyroid",
+      "urgency": "routine",
+      "red_flags": [
+        "very fast or irregular heartbeat with severe symptoms",
+        "chest pain",
+        "severe shortness of breath",
+        "confusion",
+        "collapse"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Endocrinologist",
+      "age_notes": "Children and adolescents need age-specific thyroid assessment.",
+      "gender_notes": "Pregnancy changes the evaluation and treatment approach; clinician assessment is important.",
+      "baseline_tests": [
+        "Thyroid function blood test including TSH and T4/T3 as indicated",
+        "Further antibody tests or thyroid imaging when clinically indicated"
+      ],
+      "source": "NHS: Overactive thyroid (hyperthyroidism) - https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/"
+    }
+  ]
+}

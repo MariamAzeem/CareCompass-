@@ -1,0 +1,2859 @@
+{
+  "_README": "Symptom knowledge base for the patient-routing app. 75 records. Informational only, not a diagnosis. Specialist and test fields must be reviewed by a doctor before real-world use. Sources are NHS (nhs.uk) condition pages.",
+  "_fields": [
+    "id",
+    "symptom_keywords",
+    "description",
+    "care_category",
+    "urgency",
+    "red_flags",
+    "specialist",
+    "alt_specialist",
+    "age_notes",
+    "gender_notes",
+    "baseline_tests",
+    "source"
+  ],
+  "records": [
+    {
+      "id": "common_cold",
+      "symptom_keywords": [
+        "common cold",
+        "runny nose",
+        "blocked nose",
+        "sneezing",
+        "mild cough",
+        "zukam",
+        "nazla",
+        "naak behna",
+        "chheenken",
+        "نزلہ",
+        "زکام",
+        "ناک بہنا"
+      ],
+      "description": "Mild viral infection of the nose and throat with runny or blocked nose, sneezing, sore throat and mild cough. Usually gets better in 1 to 2 weeks without antibiotics.",
+      "care_category": "Upper respiratory infection",
+      "urgency": "routine",
+      "red_flags": [
+        "trouble breathing",
+        "chest pain",
+        "fever lasting more than 3 days",
+        "symptoms lasting more than 3 weeks",
+        "baby under 3 months with fever"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "ENT",
+      "age_notes": "Baby under 3 months with fever or poor feeding: urgent Pediatrician. Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "CBC only if fever persists"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/common-cold/"
+    },
+    {
+      "id": "flu",
+      "symptom_keywords": [
+        "flu",
+        "influenza",
+        "high fever",
+        "body aches",
+        "chills",
+        "bukhar",
+        "jism dard",
+        "kapkapi",
+        "thand lagna",
+        "بخار",
+        "جسم درد",
+        "کپکپی"
+      ],
+      "description": "Viral infection that comes on suddenly with fever, aching body, tiredness, dry cough and sore throat. Usually improves in about a week with rest and fluids.",
+      "care_category": "Viral respiratory infection",
+      "urgency": "routine",
+      "red_flags": [
+        "trouble breathing",
+        "chest pain",
+        "confusion",
+        "fever not settling after 5 days",
+        "coughing blood"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Child: Pediatrician. Older adults, pregnant women and people with chronic illness should see a doctor early.",
+      "gender_notes": "Pregnant women should see a Gynecologist or doctor early because flu can be more serious.",
+      "baseline_tests": [
+        "Clinical examination",
+        "CBC",
+        "Chest X-ray if breathless or chest signs"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/flu/"
+    },
+    {
+      "id": "covid19",
+      "symptom_keywords": [
+        "covid",
+        "coronavirus",
+        "fever",
+        "dry cough",
+        "loss of smell",
+        "loss of taste",
+        "bukhar",
+        "khansi",
+        "saans ki takleef",
+        "کورونا",
+        "خشک کھانسی",
+        "بخار"
+      ],
+      "description": "Viral infection with fever, cough, tiredness and sometimes loss of smell or taste. Most people recover at home but some become short of breath.",
+      "care_category": "Viral respiratory infection",
+      "urgency": "routine",
+      "red_flags": [
+        "trouble breathing",
+        "blue lips",
+        "chest pain",
+        "confusion",
+        "oxygen level below 94%"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Child: Pediatrician. Older adults and people with chronic disease have higher risk.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "Pulse oximetry (oxygen level)",
+        "COVID PCR or rapid antigen test",
+        "CBC and CRP if unwell"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/covid-19/"
+    },
+    {
+      "id": "tonsillitis_sore_throat",
+      "symptom_keywords": [
+        "sore throat",
+        "tonsillitis",
+        "painful swallowing",
+        "swollen tonsils",
+        "gala kharab",
+        "gale mein dard",
+        "gala dukhna",
+        "tonsils",
+        "گلا خراب",
+        "گلے میں درد",
+        "ٹانسلز"
+      ],
+      "description": "Painful, red throat, often with swollen tonsils and fever. Most cases are viral and settle in about a week; some need antibiotics.",
+      "care_category": "Throat infection",
+      "urgency": "routine",
+      "red_flags": [
+        "trouble breathing",
+        "cannot swallow saliva or drooling",
+        "stiff neck",
+        "fever more than 3 days",
+        "severe one-sided throat pain"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "ENT",
+      "age_notes": "Child: Pediatrician. Recurrent tonsillitis in children: ENT.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Throat examination",
+        "CBC",
+        "Throat swab if doctor advises"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/tonsillitis/"
+    },
+    {
+      "id": "sinusitis",
+      "symptom_keywords": [
+        "sinusitis",
+        "sinus infection",
+        "facial pain",
+        "blocked nose",
+        "thick nasal discharge",
+        "sinus",
+        "naak band",
+        "chehre mein dard",
+        "sar bhaari",
+        "سائنس",
+        "ناک بند",
+        "چہرے میں درد"
+      ],
+      "description": "Inflammation of the sinuses causing facial pain or pressure, blocked nose and thick discharge. Often follows a cold and usually clears in 2 to 3 weeks.",
+      "care_category": "Ear nose throat condition",
+      "urgency": "routine",
+      "red_flags": [
+        "swelling or redness around the eye",
+        "severe headache",
+        "high fever",
+        "double vision",
+        "stiff neck"
+      ],
+      "specialist": "ENT",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child with long-lasting symptoms: Pediatrician or ENT.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "ENT examination",
+        "CBC if fever",
+        "CT scan of sinuses only if doctor advises"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
+    },
+    {
+      "id": "ear_infection",
+      "symptom_keywords": [
+        "ear infection",
+        "earache",
+        "ear pain",
+        "ear discharge",
+        "reduced hearing",
+        "kaan dard",
+        "kaan mein dard",
+        "kaan se pani",
+        "kaan behna",
+        "کان درد",
+        "کان بہنا",
+        "کان میں درد"
+      ],
+      "description": "Infection of the middle or outer ear causing ear pain, sometimes fever, discharge or muffled hearing. Common in children and often settles in a few days.",
+      "care_category": "Ear nose throat condition",
+      "urgency": "routine",
+      "red_flags": [
+        "swelling behind the ear",
+        "stiff neck",
+        "severe drowsiness",
+        "sudden hearing loss",
+        "fever in baby under 3 months"
+      ],
+      "specialist": "ENT",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician first.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Ear examination with otoscope",
+        "Hearing test if hearing loss persists"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/ear-infections/"
+    },
+    {
+      "id": "chest_infection",
+      "symptom_keywords": [
+        "chest infection",
+        "bronchitis",
+        "cough with phlegm",
+        "green phlegm",
+        "wheezing",
+        "khansi balgham",
+        "seene mein infection",
+        "balgham",
+        "کھانسی بلغم",
+        "بلغم",
+        "سینے کا انفیکشن"
+      ],
+      "description": "Infection of the airways or lungs causing cough with phlegm, wheeze and breathlessness. Mild cases clear on their own; severe cases need treatment.",
+      "care_category": "Lower respiratory infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "trouble breathing",
+        "coughing up blood",
+        "chest pain",
+        "blue lips",
+        "confusion",
+        "cough more than 3 weeks"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pulmonologist",
+      "age_notes": "Child: Pediatrician. Older adults: see doctor soon.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "Chest X-ray",
+        "CBC and CRP",
+        "Sputum test if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/chest-infection/"
+    },
+    {
+      "id": "pneumonia",
+      "symptom_keywords": [
+        "pneumonia",
+        "fever with cough",
+        "fast breathing",
+        "chest pain on breathing",
+        "breathlessness",
+        "nimonia",
+        "saans phoolna",
+        "bukhar aur khansi",
+        "seene mein dard",
+        "نمونیا",
+        "سانس پھولنا",
+        "سینے میں درد"
+      ],
+      "description": "Lung infection that causes fever, cough, fast breathing and chest pain when breathing in. Can be serious, especially in babies, older adults and people with long-term illness.",
+      "care_category": "Lower respiratory infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe trouble breathing",
+        "blue lips or face",
+        "confusion",
+        "very fast breathing",
+        "oxygen level below 92%",
+        "child too weak to feed"
+      ],
+      "specialist": "Pulmonologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician urgently. Age 65+: see doctor the same day.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Chest X-ray",
+        "CBC and CRP",
+        "Pulse oximetry",
+        "Sputum culture if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/pneumonia/"
+    },
+    {
+      "id": "asthma",
+      "symptom_keywords": [
+        "asthma",
+        "wheezing",
+        "shortness of breath",
+        "tight chest",
+        "night cough",
+        "dama",
+        "saans ki nali",
+        "saans phoolna",
+        "seene mein jakran",
+        "دمہ",
+        "سانس پھولنا",
+        "سینے میں جکڑن"
+      ],
+      "description": "Long-term lung condition causing wheeze, cough, chest tightness and breathlessness, often worse at night or with dust, cold air or exercise.",
+      "care_category": "Chronic lung condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "cannot speak full sentences",
+        "reliever inhaler not helping",
+        "blue lips",
+        "very fast breathing",
+        "exhaustion"
+      ],
+      "specialist": "Pulmonologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician or child lung specialist.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Peak flow or spirometry",
+        "Chest examination",
+        "Chest X-ray if infection suspected",
+        "Allergy tests if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/asthma/"
+    },
+    {
+      "id": "copd",
+      "symptom_keywords": [
+        "copd",
+        "chronic cough",
+        "smoker's cough",
+        "breathlessness",
+        "wheezing",
+        "pulmonary disease",
+        "purani khansi",
+        "saans ki takleef",
+        "cigarette",
+        "دائمی کھانسی",
+        "سانس کی تکلیف",
+        "سگریٹ"
+      ],
+      "description": "Long-term lung disease, mostly in smokers, causing daily cough, phlegm and breathlessness that slowly gets worse.",
+      "care_category": "Chronic lung condition",
+      "urgency": "routine",
+      "red_flags": [
+        "sudden worsening of breathlessness",
+        "blue lips",
+        "confusion",
+        "coughing blood",
+        "swollen ankles"
+      ],
+      "specialist": "Pulmonologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults over 35.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Spirometry",
+        "Chest X-ray",
+        "Pulse oximetry",
+        "CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/"
+    },
+    {
+      "id": "tuberculosis",
+      "symptom_keywords": [
+        "tuberculosis",
+        "tb",
+        "cough more than 3 weeks",
+        "night sweats",
+        "weight loss",
+        "coughing blood",
+        "tibb e diq",
+        "teebi",
+        "raat ko paseena",
+        "wazan kam",
+        "ٹی بی",
+        "تین ہفتے سے کھانسی",
+        "رات کو پسینہ",
+        "وزن کم"
+      ],
+      "description": "Bacterial infection that usually affects the lungs. Typical signs are a long cough, weight loss, fever and night sweats. It can be cured with a full course of antibiotics.",
+      "care_category": "Chronic infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "coughing blood",
+        "severe headache with stiff neck",
+        "severe breathlessness",
+        "very high fever"
+      ],
+      "specialist": "Pulmonologist",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Child: Pediatrician. Contacts of a TB patient should be checked.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Sputum test (AFB smear or GeneXpert)",
+        "Chest X-ray",
+        "CBC and ESR",
+        "HIV test if doctor advises"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/tuberculosis-tb/"
+    },
+    {
+      "id": "migraine",
+      "symptom_keywords": [
+        "migraine",
+        "severe headache",
+        "one sided headache",
+        "throbbing headache",
+        "light sensitivity",
+        "aadha sar dard",
+        "sar dard",
+        "roshni se takleef",
+        "ulti ke saath sar dard",
+        "آدھے سر کا درد",
+        "سر درد",
+        "روشنی سے تکلیف"
+      ],
+      "description": "Strong, often one-sided throbbing headache with nausea and sensitivity to light or sound. Attacks can last from hours to 3 days.",
+      "care_category": "Neurological condition",
+      "urgency": "routine",
+      "red_flags": [
+        "sudden worst headache of life",
+        "weakness or numbness",
+        "slurred speech",
+        "confusion",
+        "fever with stiff neck",
+        "headache after head injury"
+      ],
+      "specialist": "Neurologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician. New migraine after age 50: see doctor soon.",
+      "gender_notes": "Migraine may change with periods, pregnancy and hormonal medicines.",
+      "baseline_tests": [
+        "Clinical and neurological examination",
+        "Blood pressure check",
+        "Eye test",
+        "MRI or CT only if red flags"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/migraine/"
+    },
+    {
+      "id": "tension_headache",
+      "symptom_keywords": [
+        "headache",
+        "tension headache",
+        "band like headache",
+        "stress headache",
+        "sar dard",
+        "sar bhaari",
+        "dabao wala dard",
+        "tension",
+        "سر درد",
+        "سر بھاری",
+        "ٹینشن"
+      ],
+      "description": "Dull, tight, band-like pain on both sides of the head, often linked to stress, poor sleep, eye strain or skipped meals.",
+      "care_category": "Neurological condition",
+      "urgency": "routine",
+      "red_flags": [
+        "sudden severe headache",
+        "weakness or numbness",
+        "vision loss",
+        "fever with stiff neck",
+        "headache after head injury",
+        "headache with confusion"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Child: Pediatrician. Frequent headaches in a child need a check.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood pressure check",
+        "Eye test",
+        "Clinical examination"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/headaches/"
+    },
+    {
+      "id": "vertigo",
+      "symptom_keywords": [
+        "vertigo",
+        "dizziness",
+        "spinning sensation",
+        "loss of balance",
+        "chakkar",
+        "chakkar aana",
+        "sar ghoomna",
+        "balance kharab",
+        "چکر",
+        "چکر آنا",
+        "سر گھومنا"
+      ],
+      "description": "Feeling that you or the room is spinning, often with nausea. Most often caused by an inner ear problem and usually settles in days to weeks.",
+      "care_category": "Ear / balance condition",
+      "urgency": "routine",
+      "red_flags": [
+        "sudden weakness or numbness",
+        "slurred speech",
+        "double vision",
+        "severe headache",
+        "chest pain",
+        "fainting"
+      ],
+      "specialist": "ENT",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Ear and balance examination",
+        "Blood pressure (lying and standing)",
+        "Blood sugar",
+        "Audiometry if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/vertigo/"
+    },
+    {
+      "id": "epilepsy",
+      "symptom_keywords": [
+        "seizure",
+        "fits",
+        "epilepsy",
+        "convulsions",
+        "blackout",
+        "daura",
+        "mirgi",
+        "behoshi",
+        "jhatkay",
+        "دورہ",
+        "مرگی",
+        "بے ہوشی",
+        "جھٹکے"
+      ],
+      "description": "Condition where abnormal brain activity causes repeated seizures (fits). A first seizure always needs medical review.",
+      "care_category": "Neurological condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "seizure lasting more than 5 minutes",
+        "repeated seizures without waking",
+        "injury during seizure",
+        "difficulty breathing after seizure",
+        "first ever seizure"
+      ],
+      "specialist": "Neurologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician or child neurologist. Fever fits in toddlers: Pediatrician.",
+      "gender_notes": "Pregnant women with epilepsy need a Gynecologist and Neurologist together.",
+      "baseline_tests": [
+        "Neurological examination",
+        "EEG",
+        "MRI or CT brain",
+        "Blood sugar and electrolytes"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/epilepsy/"
+    },
+    {
+      "id": "stroke",
+      "symptom_keywords": [
+        "stroke",
+        "face drooping",
+        "arm weakness",
+        "slurred speech",
+        "sudden numbness",
+        "falij",
+        "munh tehra",
+        "bazu kamzor",
+        "zuban larkharana",
+        "فالج",
+        "منہ ٹیڑھا",
+        "بازو کمزور",
+        "زبان لڑکھڑانا"
+      ],
+      "description": "Medical emergency where blood supply to part of the brain is cut off. Signs are face drooping, arm weakness and speech problems. Treatment works best within hours.",
+      "care_category": "Neurological emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "face drooping on one side",
+        "cannot lift one arm",
+        "slurred or confused speech",
+        "sudden vision loss",
+        "sudden severe headache",
+        "sudden loss of balance"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Can happen at any age but risk rises after 55.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "CT or MRI brain (urgent)",
+        "Blood sugar",
+        "ECG",
+        "Blood pressure and CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/stroke/"
+    },
+    {
+      "id": "tia",
+      "symptom_keywords": [
+        "mini stroke",
+        "tia",
+        "temporary weakness",
+        "temporary speech problem",
+        "brief numbness",
+        "waqti kamzori",
+        "chhota falij",
+        "عارضی کمزوری",
+        "چھوٹا فالج"
+      ],
+      "description": "Short-lasting stroke-like symptoms that go away within minutes to hours. It is a warning sign and needs urgent hospital check even if symptoms have gone.",
+      "care_category": "Neurological emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "face drooping",
+        "arm weakness",
+        "speech problems",
+        "sudden vision loss",
+        "symptoms that have gone away but happened today"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Mostly adults over 50 or people with high blood pressure or diabetes.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "CT or MRI brain",
+        "ECG",
+        "Blood pressure",
+        "Blood sugar and cholesterol",
+        "Carotid scan if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/"
+    },
+    {
+      "id": "high_blood_pressure",
+      "symptom_keywords": [
+        "high blood pressure",
+        "hypertension",
+        "bp high",
+        "headache",
+        "dizziness",
+        "blurred vision",
+        "blood pressure",
+        "bp",
+        "hai bp",
+        "bp ka masla",
+        "بلڈ پریشر",
+        "ہائی بی پی",
+        "بی پی ہائی"
+      ],
+      "description": "Long-term raised pressure in the arteries. Often has no symptoms but raises the risk of heart attack, stroke and kidney disease.",
+      "care_category": "Heart and blood vessel condition",
+      "urgency": "routine",
+      "red_flags": [
+        "severe headache with blood pressure above 180/120",
+        "chest pain",
+        "trouble breathing",
+        "vision changes",
+        "confusion",
+        "weakness on one side"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Cardiologist",
+      "age_notes": "Rare in children: Pediatrician if found.",
+      "gender_notes": "Pregnant women with high blood pressure: urgent Gynecologist (risk of pre-eclampsia).",
+      "baseline_tests": [
+        "Repeated blood pressure readings",
+        "Blood sugar",
+        "Lipid profile",
+        "Kidney function tests and urine test",
+        "ECG"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/high-blood-pressure/"
+    },
+    {
+      "id": "heart_attack",
+      "symptom_keywords": [
+        "chest pain",
+        "heart attack",
+        "chest pressure",
+        "pain spreading to arm or jaw",
+        "sweating",
+        "dil ka daura",
+        "seene mein dard",
+        "seene par bojh",
+        "bayen bazu mein dard",
+        "دل کا دورہ",
+        "سینے میں درد",
+        "سینے پر بوجھ",
+        "بائیں بازو میں درد"
+      ],
+      "description": "Emergency where blood flow to the heart is blocked. Typical signs are chest pressure or pain that may spread to the arm, neck or jaw, with sweating and breathlessness.",
+      "care_category": "Heart emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "chest pain lasting more than 15 minutes",
+        "pain spreading to arm, neck or jaw",
+        "cold sweat",
+        "shortness of breath",
+        "feeling faint",
+        "nausea with chest pain"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Cardiologist",
+      "age_notes": "Risk rises in men over 45 and women over 55.",
+      "gender_notes": "Women may have less typical signs such as nausea, back or jaw pain and unusual tiredness.",
+      "baseline_tests": [
+        "ECG (immediately)",
+        "Troponin blood test",
+        "Chest X-ray",
+        "Blood sugar and lipid profile"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/heart-attack/"
+    },
+    {
+      "id": "angina",
+      "symptom_keywords": [
+        "angina",
+        "chest tightness on exertion",
+        "chest pain when walking",
+        "pain on climbing stairs",
+        "seene mein bhaari pan",
+        "chalne par seene mein dard",
+        "سینے میں بھاری پن",
+        "چلنے پر سینے میں درد"
+      ],
+      "description": "Chest tightness or pain, brought on by effort or stress and relieved by rest, caused by reduced blood flow to the heart muscle.",
+      "care_category": "Heart and blood vessel condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "chest pain at rest",
+        "pain lasting more than 15 minutes",
+        "pain not relieved by rest",
+        "breathlessness with sweating"
+      ],
+      "specialist": "Cardiologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults over 40.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "ECG",
+        "Blood pressure",
+        "Lipid profile and blood sugar",
+        "Stress test or echocardiogram if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/angina/"
+    },
+    {
+      "id": "heart_failure",
+      "symptom_keywords": [
+        "heart failure",
+        "swollen ankles",
+        "breathless lying flat",
+        "tiredness",
+        "fluid retention",
+        "dil ki kamzori",
+        "taango mein soojan",
+        "let kar saans phoolna",
+        "دل کی کمزوری",
+        "ٹانگوں میں سوجن",
+        "لیٹ کر سانس پھولنا"
+      ],
+      "description": "Condition where the heart does not pump blood well. Causes breathlessness, tiredness and swollen ankles.",
+      "care_category": "Heart and blood vessel condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe breathlessness at rest",
+        "pink frothy cough",
+        "chest pain",
+        "fainting",
+        "rapid weight gain from fluid"
+      ],
+      "specialist": "Cardiologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults over 50.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "ECG",
+        "Echocardiogram",
+        "Blood tests (CBC, kidney function, electrolytes, NT-proBNP)",
+        "Chest X-ray"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/heart-failure/"
+    },
+    {
+      "id": "palpitations_atrial_fibrillation",
+      "symptom_keywords": [
+        "palpitations",
+        "fast heartbeat",
+        "irregular heartbeat",
+        "racing heart",
+        "fluttering in chest",
+        "dhadkan tez",
+        "dil ki dhadkan",
+        "dhadkan be tarteeb",
+        "دھڑکن تیز",
+        "دل کی دھڑکن",
+        "بے ترتیب دھڑکن"
+      ],
+      "description": "Feeling of a fast, pounding or irregular heartbeat. Often harmless, but a persistent irregular rhythm such as atrial fibrillation raises stroke risk.",
+      "care_category": "Heart rhythm condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "chest pain",
+        "fainting",
+        "severe breathlessness",
+        "very fast heartbeat that does not settle",
+        "heartbeat with weakness or speech trouble"
+      ],
+      "specialist": "Cardiologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child with fast heartbeat: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "ECG",
+        "Thyroid function (TSH)",
+        "CBC",
+        "Electrolytes",
+        "Holter monitor if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/atrial-fibrillation/"
+    },
+    {
+      "id": "dvt",
+      "symptom_keywords": [
+        "leg swelling",
+        "calf pain",
+        "one leg swollen",
+        "warm red leg",
+        "deep vein thrombosis",
+        "taang mein soojan",
+        "pindli mein dard",
+        "ek taang sooji hui",
+        "ٹانگ میں سوجن",
+        "پنڈلی میں درد"
+      ],
+      "description": "Blood clot in a deep leg vein causing pain, swelling, warmth and redness, usually in one leg. The clot can travel to the lungs.",
+      "care_category": "Blood vessel condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "sudden breathlessness",
+        "chest pain",
+        "coughing blood",
+        "fainting",
+        "swollen leg with fever"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Cardiologist",
+      "age_notes": "Higher risk after long travel, surgery or bed rest.",
+      "gender_notes": "Higher risk in pregnancy and with hormonal pills.",
+      "baseline_tests": [
+        "Doppler ultrasound of leg",
+        "D-dimer blood test",
+        "CBC and clotting profile"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/"
+    },
+    {
+      "id": "type2_diabetes",
+      "symptom_keywords": [
+        "diabetes",
+        "high sugar",
+        "frequent urination",
+        "excessive thirst",
+        "tiredness",
+        "blurred vision",
+        "sugar",
+        "sugar ki bimari",
+        "bar bar peshab",
+        "bohat pyaas",
+        "kamzori",
+        "شوگر",
+        "ذیابیطس",
+        "بار بار پیشاب",
+        "زیادہ پیاس",
+        "کمزوری"
+      ],
+      "description": "Long-term condition where blood sugar stays too high. Common signs are thirst, frequent urination, tiredness, slow-healing wounds and blurred vision.",
+      "care_category": "Hormone and metabolic condition",
+      "urgency": "routine",
+      "red_flags": [
+        "vomiting with abdominal pain",
+        "fruity breath",
+        "confusion",
+        "very high blood sugar",
+        "foot ulcer that is not healing",
+        "sudden vision loss"
+      ],
+      "specialist": "Endocrinologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults over 40 but now seen in younger people.",
+      "gender_notes": "Women with diabetes in pregnancy need a Gynecologist and Endocrinologist.",
+      "baseline_tests": [
+        "Fasting blood sugar",
+        "HbA1c",
+        "Random blood sugar",
+        "Urine test",
+        "Kidney function and lipid profile"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/type-2-diabetes/"
+    },
+    {
+      "id": "type1_diabetes",
+      "symptom_keywords": [
+        "type 1 diabetes",
+        "child diabetes",
+        "weight loss",
+        "excessive thirst",
+        "bedwetting",
+        "bachon mein sugar",
+        "bohat pyaas",
+        "wazan girna",
+        "بچوں میں شوگر",
+        "زیادہ پیاس",
+        "وزن کم"
+      ],
+      "description": "Autoimmune condition where the body cannot make insulin. Starts quickly with thirst, frequent urination and weight loss, mostly in children and young adults.",
+      "care_category": "Hormone and metabolic condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "vomiting",
+        "abdominal pain",
+        "fast deep breathing",
+        "drowsiness or confusion",
+        "fruity-smelling breath"
+      ],
+      "specialist": "Endocrinologist",
+      "alt_specialist": "Pediatrician",
+      "age_notes": "Child: Pediatrician or pediatric Endocrinologist.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood sugar",
+        "HbA1c",
+        "Urine ketones",
+        "Blood ketones if available",
+        "Thyroid tests"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/type-1-diabetes/"
+    },
+    {
+      "id": "diabetic_ketoacidosis",
+      "symptom_keywords": [
+        "diabetic ketoacidosis",
+        "dka",
+        "vomiting with high sugar",
+        "fruity breath",
+        "fast breathing",
+        "sugar ke saath ulti",
+        "saans mein meethi boo",
+        "شوگر کے ساتھ الٹی",
+        "سانس میں میٹھی بو"
+      ],
+      "description": "Dangerous emergency in people with diabetes when the body makes too many acids (ketones). Needs hospital treatment at once.",
+      "care_category": "Hormone emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "vomiting and stomach pain",
+        "fast deep breathing",
+        "fruity breath",
+        "drowsiness or confusion",
+        "very high blood sugar",
+        "extreme thirst"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Endocrinologist",
+      "age_notes": "Most common in children and young adults with type 1 diabetes.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood sugar",
+        "Blood or urine ketones",
+        "Blood gas and electrolytes",
+        "Kidney function"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/diabetic-ketoacidosis/"
+    },
+    {
+      "id": "hypoglycaemia",
+      "symptom_keywords": [
+        "low blood sugar",
+        "hypoglycemia",
+        "shaking",
+        "sweating",
+        "hunger",
+        "confusion",
+        "sugar kam",
+        "haath kaanpna",
+        "paseena",
+        "bhook",
+        "شوگر کم",
+        "ہاتھ کانپنا",
+        "پسینہ",
+        "بھوک"
+      ],
+      "description": "Blood sugar that falls too low, mostly in people with diabetes taking insulin or tablets. Causes shakiness, sweating, hunger and confusion.",
+      "care_category": "Hormone and metabolic condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "unconsciousness",
+        "seizure",
+        "cannot swallow",
+        "confusion that does not improve after sugar",
+        "repeated low sugar episodes"
+      ],
+      "specialist": "Endocrinologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child with diabetes: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood sugar (finger prick)",
+        "HbA1c",
+        "Review of diabetes medicines"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
+    },
+    {
+      "id": "hypothyroidism",
+      "symptom_keywords": [
+        "underactive thyroid",
+        "hypothyroidism",
+        "weight gain",
+        "tiredness",
+        "feeling cold",
+        "dry skin",
+        "constipation",
+        "thyroid",
+        "wazan barhna",
+        "sardi lagna",
+        "khushk jild",
+        "تھائیرائیڈ",
+        "وزن بڑھنا",
+        "سردی لگنا",
+        "خشک جلد"
+      ],
+      "description": "Thyroid gland makes too little hormone, causing tiredness, weight gain, feeling cold, dry skin and constipation.",
+      "care_category": "Hormone and metabolic condition",
+      "urgency": "routine",
+      "red_flags": [
+        "extreme drowsiness",
+        "very slow heartbeat",
+        "confusion",
+        "swelling of the neck with breathing trouble"
+      ],
+      "specialist": "Endocrinologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Newborn or child with slow growth: Pediatrician.",
+      "gender_notes": "More common in women; ask a Gynecologist if periods are irregular or pregnancy is planned.",
+      "baseline_tests": [
+        "TSH",
+        "Free T4",
+        "CBC",
+        "Lipid profile",
+        "Thyroid antibodies if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/"
+    },
+    {
+      "id": "hyperthyroidism",
+      "symptom_keywords": [
+        "overactive thyroid",
+        "hyperthyroidism",
+        "weight loss",
+        "fast heartbeat",
+        "sweating",
+        "tremor",
+        "anxiety",
+        "goiter",
+        "wazan kam",
+        "dhadkan tez",
+        "haath kaanpna",
+        "گھبراہٹ",
+        "وزن کم",
+        "دھڑکن تیز",
+        "گلے میں گلٹی"
+      ],
+      "description": "Thyroid gland makes too much hormone, causing weight loss, fast heartbeat, sweating, shakiness and irritability.",
+      "care_category": "Hormone and metabolic condition",
+      "urgency": "routine",
+      "red_flags": [
+        "very fast heartbeat",
+        "chest pain",
+        "high fever with confusion",
+        "severe breathlessness"
+      ],
+      "specialist": "Endocrinologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "More common in women; pregnancy needs close care by a Gynecologist and Endocrinologist.",
+      "baseline_tests": [
+        "TSH",
+        "Free T4 and T3",
+        "ECG",
+        "Thyroid ultrasound if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/"
+    },
+    {
+      "id": "iron_deficiency_anaemia",
+      "symptom_keywords": [
+        "anaemia",
+        "low hemoglobin",
+        "tiredness",
+        "pale skin",
+        "weakness",
+        "breathlessness",
+        "khoon ki kami",
+        "kamzori",
+        "chehra peela",
+        "chakkar",
+        "خون کی کمی",
+        "کمزوری",
+        "چہرہ پیلا",
+        "چکر"
+      ],
+      "description": "Low red blood cells because of too little iron. Causes tiredness, pale skin, dizziness and breathlessness. Common in women and children.",
+      "care_category": "Blood condition",
+      "urgency": "routine",
+      "red_flags": [
+        "chest pain",
+        "severe breathlessness",
+        "fainting",
+        "black or bloody stools",
+        "very heavy periods"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Hematologist",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "Women with heavy periods or pregnancy: Gynecologist.",
+      "baseline_tests": [
+        "CBC",
+        "Serum ferritin and iron studies",
+        "Peripheral blood film",
+        "Stool test for occult blood if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/iron-deficiency-anaemia/"
+    },
+    {
+      "id": "heartburn_acid_reflux",
+      "symptom_keywords": [
+        "heartburn",
+        "acid reflux",
+        "burning chest",
+        "sour taste",
+        "acidity",
+        "seene mein jalan",
+        "tezabiyat",
+        "khatti dakar",
+        "sine mein jalan",
+        "سینے میں جلن",
+        "تیزابیت",
+        "کھٹی ڈکار"
+      ],
+      "description": "Burning feeling in the chest or throat caused by stomach acid coming up. Common after meals or when lying down.",
+      "care_category": "Digestive condition",
+      "urgency": "routine",
+      "red_flags": [
+        "chest pain with sweating or breathlessness",
+        "trouble swallowing",
+        "vomiting blood",
+        "black stools",
+        "weight loss without trying"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Baby with reflux: Pediatrician.",
+      "gender_notes": "Common in pregnancy; discuss with Gynecologist.",
+      "baseline_tests": [
+        "Clinical examination",
+        "H. pylori test",
+        "Upper GI endoscopy if red flags"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/heartburn-and-acid-reflux/"
+    },
+    {
+      "id": "gastritis",
+      "symptom_keywords": [
+        "gastritis",
+        "stomach inflammation",
+        "upper stomach pain",
+        "nausea",
+        "bloating",
+        "indigestion",
+        "pait mein jalan",
+        "meda kharab",
+        "ulti jaisa",
+        "معدے کی سوزش",
+        "پیٹ میں جلن",
+        "متلی",
+        "گیس"
+      ],
+      "description": "Inflammation of the stomach lining causing upper stomach pain, bloating, nausea and indigestion. Often linked to infection with H. pylori, painkillers or alcohol.",
+      "care_category": "Digestive condition",
+      "urgency": "routine",
+      "red_flags": [
+        "vomiting blood",
+        "black stools",
+        "severe stomach pain",
+        "unexplained weight loss",
+        "trouble swallowing"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "H. pylori stool or breath test",
+        "CBC",
+        "Upper GI endoscopy if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/gastritis/"
+    },
+    {
+      "id": "stomach_ulcer",
+      "symptom_keywords": [
+        "stomach ulcer",
+        "peptic ulcer",
+        "burning stomach pain",
+        "pain when hungry",
+        "black stools",
+        "pait mein zakham",
+        "bhook mein dard",
+        "kaala paakhana",
+        "معدے کا السر",
+        "پیٹ میں زخم",
+        "کالا پاخانہ"
+      ],
+      "description": "Sore in the lining of the stomach or gut causing burning pain, often related to H. pylori infection or painkiller use.",
+      "care_category": "Digestive condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "vomiting blood",
+        "black tarry stools",
+        "sudden severe stomach pain",
+        "fainting",
+        "unexplained weight loss"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "H. pylori test",
+        "CBC (for bleeding)",
+        "Upper GI endoscopy"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/stomach-ulcer/"
+    },
+    {
+      "id": "ibs",
+      "symptom_keywords": [
+        "irritable bowel syndrome",
+        "ibs",
+        "bloating",
+        "cramps",
+        "diarrhoea and constipation",
+        "pait phoolna",
+        "pait mein marror",
+        "kabhi dast kabhi qabz",
+        "آئی بی ایس",
+        "پیٹ پھولنا",
+        "پیٹ میں مروڑ",
+        "قبض اور دست"
+      ],
+      "description": "Common long-term gut condition causing cramps, bloating, and diarrhoea or constipation, often triggered by food or stress. No sign of bowel damage.",
+      "care_category": "Digestive condition",
+      "urgency": "routine",
+      "red_flags": [
+        "blood in stools",
+        "unexplained weight loss",
+        "night-time diarrhoea",
+        "new symptoms after age 50",
+        "persistent vomiting"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "More common in women; ask Gynecologist if pain is linked to periods.",
+      "baseline_tests": [
+        "CBC",
+        "Stool tests",
+        "Coeliac blood test",
+        "Colonoscopy only if red flags"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/"
+    },
+    {
+      "id": "constipation",
+      "symptom_keywords": [
+        "constipation",
+        "hard stools",
+        "straining",
+        "infrequent stools",
+        "qabz",
+        "qabz ki shikayat",
+        "paakhana sakht",
+        "pait saaf nahi",
+        "قبض",
+        "پاخانہ سخت",
+        "پیٹ صاف نہ ہونا"
+      ],
+      "description": "Difficulty passing stools or going less than 3 times a week. Usually due to low fibre, low fluids or lack of movement.",
+      "care_category": "Digestive condition",
+      "urgency": "routine",
+      "red_flags": [
+        "blood in stools",
+        "severe stomach pain",
+        "vomiting",
+        "unexplained weight loss",
+        "unable to pass gas or stool"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "Child: Pediatrician. Baby with constipation: Pediatrician.",
+      "gender_notes": "Common in pregnancy; discuss with Gynecologist.",
+      "baseline_tests": [
+        "Clinical examination",
+        "Thyroid test and blood sugar if long-lasting",
+        "CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/constipation/"
+    },
+    {
+      "id": "food_poisoning",
+      "symptom_keywords": [
+        "food poisoning",
+        "vomiting and diarrhoea",
+        "stomach cramps",
+        "fever after eating",
+        "dast aur ulti",
+        "khana kharab",
+        "pait dard",
+        "haiza",
+        "فوڈ پوائزننگ",
+        "دست اور الٹی",
+        "پیٹ درد",
+        "ہیضہ"
+      ],
+      "description": "Illness from eating contaminated food causing vomiting, diarrhoea, stomach cramps and fever. Usually passes in a few days with fluids.",
+      "care_category": "Digestive infection",
+      "urgency": "routine",
+      "red_flags": [
+        "blood in stools",
+        "signs of dehydration",
+        "very little urine",
+        "high fever",
+        "symptoms lasting more than 7 days",
+        "unable to keep fluids down"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "Baby or young child: Pediatrician early. Older adults: see doctor early.",
+      "gender_notes": "Pregnant women: contact Gynecologist or doctor.",
+      "baseline_tests": [
+        "Clinical examination",
+        "Stool test if severe or persistent",
+        "CBC and electrolytes if dehydrated"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/food-poisoning/"
+    },
+    {
+      "id": "viral_gastroenteritis",
+      "symptom_keywords": [
+        "stomach bug",
+        "vomiting bug",
+        "norovirus",
+        "gastroenteritis",
+        "loose motions",
+        "dast",
+        "ulti",
+        "pait kharab",
+        "ulti dast",
+        "دست",
+        "الٹی",
+        "پیٹ خراب",
+        "گیسٹرو"
+      ],
+      "description": "Very common stomach infection causing sudden vomiting and watery diarrhoea. It spreads easily and mostly clears in 1 to 2 days.",
+      "care_category": "Digestive infection",
+      "urgency": "routine",
+      "red_flags": [
+        "signs of dehydration",
+        "blood in stools",
+        "vomiting for more than 2 days",
+        "severe stomach pain",
+        "baby not feeding"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Pediatrician",
+      "age_notes": "Child under 5: Pediatrician; use ORS and see doctor early.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "ORS and fluid check",
+        "Stool test if blood or long duration"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/norovirus/"
+    },
+    {
+      "id": "appendicitis",
+      "symptom_keywords": [
+        "appendicitis",
+        "pain right lower abdomen",
+        "pain moving to right side",
+        "belly pain with vomiting",
+        "apendix",
+        "pait ke daayen neeche dard",
+        "naaf ke paas dard",
+        "اپنڈکس",
+        "پیٹ کے دائیں نیچے درد",
+        "ناف کے پاس درد"
+      ],
+      "description": "Inflamed appendix causing pain that starts near the belly button and moves to the lower right, with nausea and fever. Usually needs surgery.",
+      "care_category": "Abdominal emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "severe pain in lower right abdomen",
+        "pain that gets worse when moving or coughing",
+        "vomiting",
+        "fever",
+        "hard, tender belly"
+      ],
+      "specialist": "General Surgeon",
+      "alt_specialist": "Emergency Medicine",
+      "age_notes": "Child: Pediatrician or Pediatric Surgeon.",
+      "gender_notes": "Women: a Gynecologist may also assess to rule out other causes.",
+      "baseline_tests": [
+        "Abdominal examination",
+        "CBC and CRP",
+        "Ultrasound abdomen",
+        "CT scan if unclear"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/appendicitis/"
+    },
+    {
+      "id": "gallstones",
+      "symptom_keywords": [
+        "gallstones",
+        "pain upper right abdomen",
+        "pain after fatty food",
+        "gallbladder",
+        "pitte ki pathri",
+        "pait ke upar daayen dard",
+        "charbi wala khana dard",
+        "پتے کی پتھری",
+        "پیٹ کے اوپر دائیں درد",
+        "چکنائی کے بعد درد"
+      ],
+      "description": "Hard lumps in the gallbladder that cause sudden pain in the upper right belly, often after fatty meals, with nausea.",
+      "care_category": "Digestive condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe pain for more than 5 hours",
+        "yellow skin or eyes",
+        "fever with chills",
+        "very dark urine and pale stools",
+        "vomiting that does not stop"
+      ],
+      "specialist": "General Surgeon",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "More common in adults over 40.",
+      "gender_notes": "More common in women, especially during or after pregnancy.",
+      "baseline_tests": [
+        "Ultrasound abdomen",
+        "Liver function tests",
+        "CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/gallstones/"
+    },
+    {
+      "id": "jaundice",
+      "symptom_keywords": [
+        "jaundice",
+        "yellow eyes",
+        "yellow skin",
+        "dark urine",
+        "pale stools",
+        "yarqan",
+        "peeli aankhein",
+        "peela rang",
+        "gehra peshab",
+        "یرقان",
+        "پیلی آنکھیں",
+        "پیلا رنگ",
+        "گہرا پیشاب"
+      ],
+      "description": "Yellowing of the skin and eyes caused by too much bilirubin, often from liver, gallbladder or blood problems such as hepatitis.",
+      "care_category": "Liver and digestive condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "confusion or drowsiness",
+        "vomiting blood",
+        "severe stomach pain",
+        "high fever",
+        "black stools",
+        "swollen belly"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Newborn jaundice: Pediatrician urgently.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Liver function tests (bilirubin, ALT, AST)",
+        "Hepatitis B and C tests",
+        "CBC",
+        "Ultrasound abdomen"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/jaundice/"
+    },
+    {
+      "id": "viral_hepatitis",
+      "symptom_keywords": [
+        "hepatitis",
+        "hepatitis b",
+        "hepatitis c",
+        "hepatitis a",
+        "liver infection",
+        "yellow eyes",
+        "tiredness",
+        "jigar ki sozish",
+        "hepatitis ka masla",
+        "jigar",
+        "yarqan",
+        "ہیپاٹائٹس",
+        "جگر کی سوزش",
+        "جگر",
+        "یرقان"
+      ],
+      "description": "Viral infection that inflames the liver. Hepatitis A spreads through dirty food or water; hepatitis B and C spread through blood and body fluids. Can cause tiredness, nausea, dark urine and yellow eyes.",
+      "care_category": "Liver infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "vomiting blood",
+        "confusion or drowsiness",
+        "swollen belly",
+        "severe stomach pain",
+        "black stools",
+        "yellow eyes with high fever"
+      ],
+      "specialist": "Gastroenterologist",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Child: Pediatrician. Newborn of a hepatitis B mother needs vaccination at birth.",
+      "gender_notes": "Pregnant women with hepatitis B or C: Gynecologist and Gastroenterologist together.",
+      "baseline_tests": [
+        "Liver function tests",
+        "Hepatitis B surface antigen",
+        "Anti-HCV test",
+        "HCV PCR or HBV DNA if positive",
+        "Ultrasound abdomen"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/hepatitis-b/ | https://www.nhs.uk/conditions/hepatitis-c/ | https://www.nhs.uk/conditions/liver-disease/"
+    },
+    {
+      "id": "piles",
+      "symptom_keywords": [
+        "piles",
+        "haemorrhoids",
+        "bleeding while passing stool",
+        "anal itching",
+        "lump near anus",
+        "bawaseer",
+        "paakhane mein khoon",
+        "maqad mein dard",
+        "بواسیر",
+        "پاخانے میں خون",
+        "مقعد میں درد"
+      ],
+      "description": "Swollen veins in or around the anus causing itching, discomfort and bright red blood after passing stool. Often linked to constipation.",
+      "care_category": "Digestive condition",
+      "urgency": "routine",
+      "red_flags": [
+        "heavy bleeding",
+        "dark or black stools",
+        "bleeding with weight loss",
+        "change in bowel habit for more than 3 weeks",
+        "severe pain"
+      ],
+      "specialist": "General Surgeon",
+      "alt_specialist": "Gastroenterologist",
+      "age_notes": "Rare in children: see Pediatrician.",
+      "gender_notes": "Common in pregnancy; discuss with Gynecologist.",
+      "baseline_tests": [
+        "Clinical and rectal examination",
+        "CBC (if bleeding)",
+        "Colonoscopy if age over 45 or red flags"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/piles-haemorrhoids/"
+    },
+    {
+      "id": "typhoid_fever",
+      "symptom_keywords": [
+        "typhoid",
+        "enteric fever",
+        "prolonged fever",
+        "stepwise fever",
+        "headache",
+        "stomach pain",
+        "typhoid bukhar",
+        "motijhara",
+        "lamba bukhar",
+        "pait dard",
+        "ٹائیفائیڈ",
+        "مرتعش بخار",
+        "لمبا بخار",
+        "موتی جھرا"
+      ],
+      "description": "Bacterial infection spread by dirty food or water. Causes a fever that slowly rises over days, headache, stomach pain and weakness. Needs antibiotics.",
+      "care_category": "Infectious disease",
+      "urgency": "urgent",
+      "red_flags": [
+        "confusion or drowsiness",
+        "severe stomach pain",
+        "blood in stools",
+        "fever with persistent vomiting",
+        "very high fever"
+      ],
+      "specialist": "Infectious Disease Specialist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "CBC",
+        "Blood culture (most reliable)",
+        "Typhidot or Widal only as supportive tests",
+        "Liver function tests",
+        "Stool culture if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/typhoid-fever/"
+    },
+    {
+      "id": "dengue",
+      "symptom_keywords": [
+        "dengue",
+        "dengue fever",
+        "high fever",
+        "severe body pain",
+        "pain behind eyes",
+        "rash",
+        "low platelets",
+        "dengue bukhar",
+        "haddi tor bukhar",
+        "aankhon ke peeche dard",
+        "platelets kam",
+        "ڈینگی",
+        "ہڈی توڑ بخار",
+        "آنکھوں کے پیچھے درد",
+        "پلیٹلیٹس کم"
+      ],
+      "description": "Mosquito-borne viral fever causing sudden high fever, severe body and joint pain, headache, pain behind the eyes and rash. A small number of people develop severe dengue with bleeding.",
+      "care_category": "Infectious disease",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe stomach pain",
+        "persistent vomiting",
+        "bleeding from gums or nose",
+        "blood in vomit or stools",
+        "cold clammy skin or restlessness",
+        "drowsiness",
+        "fever settling but patient getting worse"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Child: Pediatrician early. Do not give aspirin or ibuprofen.",
+      "gender_notes": "Pregnant women: contact Gynecologist and doctor early.",
+      "baseline_tests": [
+        "CBC with platelet count (repeat as advised)",
+        "Dengue NS1 antigen (first 5 days)",
+        "Dengue IgM and IgG",
+        "Liver function tests",
+        "Hematocrit"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/dengue/"
+    },
+    {
+      "id": "malaria",
+      "symptom_keywords": [
+        "malaria",
+        "fever with chills",
+        "fever every other day",
+        "shivering",
+        "sweating",
+        "malaria bukhar",
+        "thand lagke bukhar",
+        "kapkapi wala bukhar",
+        "ملیریا",
+        "کپکپی کے ساتھ بخار",
+        "سردی لگ کر بخار"
+      ],
+      "description": "Parasite infection spread by mosquitoes causing fever with chills and sweating that come in cycles, headache and body aches. Needs prompt testing and treatment.",
+      "care_category": "Infectious disease",
+      "urgency": "urgent",
+      "red_flags": [
+        "confusion or drowsiness",
+        "seizure",
+        "yellow skin or eyes",
+        "trouble breathing",
+        "very dark urine",
+        "persistent vomiting"
+      ],
+      "specialist": "Infectious Disease Specialist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician urgently.",
+      "gender_notes": "Pregnant women: urgent medical care; contact Gynecologist.",
+      "baseline_tests": [
+        "Malaria parasite (MP) blood film",
+        "Malaria rapid test (ICT)",
+        "CBC",
+        "Liver and kidney function tests"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/malaria/"
+    },
+    {
+      "id": "chickenpox",
+      "symptom_keywords": [
+        "chickenpox",
+        "itchy blisters",
+        "spotty rash",
+        "fever with rash",
+        "chhoti mata",
+        "khaarish wale daane",
+        "pani wale daane",
+        "چیچک",
+        "چھوٹی ماتا",
+        "خارش والے دانے",
+        "پانی والے دانے"
+      ],
+      "description": "Common viral illness in children with itchy red spots that turn into blisters, with mild fever. Most people recover in 1 to 2 weeks.",
+      "care_category": "Viral skin infection",
+      "urgency": "routine",
+      "red_flags": [
+        "rash that turns red, hot or very painful",
+        "trouble breathing",
+        "stiff neck",
+        "confusion",
+        "blisters near the eye",
+        "baby under 4 weeks"
+      ],
+      "specialist": "Pediatrician",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician. Adults, newborns and people with weak immunity need doctor early.",
+      "gender_notes": "Pregnant women who are exposed should contact a Gynecologist urgently.",
+      "baseline_tests": [
+        "Clinical examination",
+        "Blood test only if complications"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/chickenpox/"
+    },
+    {
+      "id": "measles",
+      "symptom_keywords": [
+        "measles",
+        "red rash",
+        "fever with rash",
+        "red eyes",
+        "cough",
+        "khasra",
+        "bukhar aur daane",
+        "aankhein laal",
+        "خسرہ",
+        "بخار اور دانے",
+        "آنکھیں لال"
+      ],
+      "description": "Highly contagious viral illness starting with fever, cough, runny nose and red eyes, followed by a red-brown rash that begins on the face.",
+      "care_category": "Viral infection",
+      "urgency": "urgent",
+      "red_flags": [
+        "trouble breathing",
+        "drowsiness or confusion",
+        "seizure",
+        "persistent high fever",
+        "severe diarrhoea",
+        "earache"
+      ],
+      "specialist": "Pediatrician",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Mostly unvaccinated children: Pediatrician.",
+      "gender_notes": "Pregnant women should contact Gynecologist urgently if exposed.",
+      "baseline_tests": [
+        "Clinical examination",
+        "Measles IgM blood test",
+        "CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/measles/"
+    },
+    {
+      "id": "uti",
+      "symptom_keywords": [
+        "urinary tract infection",
+        "uti",
+        "burning urination",
+        "frequent urination",
+        "lower abdominal pain",
+        "cloudy urine",
+        "peshab mein jalan",
+        "bar bar peshab",
+        "peshab mein khoon",
+        "peshab ka infection",
+        "پیشاب میں جلن",
+        "بار بار پیشاب",
+        "پیشاب میں خون",
+        "پیشاب کا انفیکشن"
+      ],
+      "description": "Infection of the bladder or urine tubes causing burning when passing urine, frequent urge, lower belly pain and cloudy or smelly urine.",
+      "care_category": "Urinary condition",
+      "urgency": "routine",
+      "red_flags": [
+        "fever with shivering",
+        "back or side pain",
+        "blood in urine",
+        "vomiting",
+        "confusion",
+        "pregnant with UTI symptoms"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Urologist",
+      "age_notes": "Child with UTI: Pediatrician. Men with UTI: see Urologist.",
+      "gender_notes": "Women get UTIs more often. Pregnant women with symptoms need a Gynecologist soon.",
+      "baseline_tests": [
+        "Urine routine examination (R/E)",
+        "Urine culture and sensitivity",
+        "CBC if fever",
+        "Ultrasound KUB if recurrent"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+    },
+    {
+      "id": "kidney_infection",
+      "symptom_keywords": [
+        "kidney infection",
+        "pyelonephritis",
+        "back pain with fever",
+        "loin pain",
+        "burning urine",
+        "gurde ka infection",
+        "kamar ke side mein dard",
+        "bukhar aur kamar dard",
+        "گردے کا انفیکشن",
+        "کمر کے سائیڈ میں درد",
+        "بخار اور کمر درد"
+      ],
+      "description": "Infection that reaches the kidneys, causing fever, shivering, pain in the side or back and urinary symptoms. Needs same-day treatment.",
+      "care_category": "Urinary condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "high fever with shivering",
+        "vomiting and cannot keep fluids down",
+        "confusion",
+        "very little urine",
+        "severe back pain",
+        "pregnancy"
+      ],
+      "specialist": "Urologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician urgently.",
+      "gender_notes": "Pregnant women: urgent Gynecologist or hospital care.",
+      "baseline_tests": [
+        "Urine R/E and culture",
+        "CBC and CRP",
+        "Kidney function tests",
+        "Ultrasound KUB"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/kidney-infection/"
+    },
+    {
+      "id": "kidney_stones",
+      "symptom_keywords": [
+        "kidney stones",
+        "renal colic",
+        "severe side pain",
+        "blood in urine",
+        "pain going to groin",
+        "gurde ki pathri",
+        "kamar se pait mein dard",
+        "peshab mein khoon",
+        "گردے کی پتھری",
+        "کمر سے پیٹ میں درد",
+        "پیشاب میں خون"
+      ],
+      "description": "Hard deposits in the kidney that can cause sudden severe pain in the side or back that spreads to the groin, with blood in the urine and nausea.",
+      "care_category": "Urinary condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "pain with fever or chills",
+        "unable to pass urine",
+        "vomiting that does not stop",
+        "severe pain not controlled by painkillers",
+        "single kidney"
+      ],
+      "specialist": "Urologist",
+      "alt_specialist": "Nephrologist",
+      "age_notes": "Child: Pediatrician or Pediatric Urologist.",
+      "gender_notes": "More common in men.",
+      "baseline_tests": [
+        "Urine R/E",
+        "Ultrasound KUB",
+        "CT KUB or X-ray KUB",
+        "Kidney function tests",
+        "Serum calcium and uric acid"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/kidney-stones/"
+    },
+    {
+      "id": "chronic_kidney_disease",
+      "symptom_keywords": [
+        "kidney disease",
+        "ckd",
+        "swollen feet",
+        "tiredness",
+        "foamy urine",
+        "reduced urine",
+        "gurde ki kharabi",
+        "paon mein soojan",
+        "jhag wala peshab",
+        "گردے کی خرابی",
+        "پاؤں میں سوجن",
+        "جھاگ والا پیشاب",
+        "کمزوری"
+      ],
+      "description": "Long-term loss of kidney function, often linked to diabetes and high blood pressure. Early on it may have no symptoms; later causes swelling, tiredness and changes in urine.",
+      "care_category": "Kidney condition",
+      "urgency": "routine",
+      "red_flags": [
+        "very little or no urine",
+        "shortness of breath",
+        "chest pain",
+        "confusion",
+        "vomiting that does not stop",
+        "severe swelling"
+      ],
+      "specialist": "Nephrologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician or pediatric kidney specialist.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Serum creatinine and eGFR",
+        "Urine R/E and urine albumin",
+        "Blood pressure",
+        "Ultrasound KUB",
+        "CBC and electrolytes"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/kidney-disease/"
+    },
+    {
+      "id": "dehydration",
+      "symptom_keywords": [
+        "dehydration",
+        "very thirsty",
+        "dark urine",
+        "dry mouth",
+        "dizziness",
+        "pani ki kami",
+        "bohat pyaas",
+        "gehra peshab",
+        "munh sookhna",
+        "پانی کی کمی",
+        "بہت پیاس",
+        "گہرا پیشاب",
+        "منہ سوکھنا"
+      ],
+      "description": "Body loses more fluid than it takes in, often from heat, vomiting or diarrhoea. Causes thirst, dark urine, dizziness and tiredness.",
+      "care_category": "General condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "confusion or drowsiness",
+        "no urine for 8 hours",
+        "very fast heartbeat",
+        "fainting",
+        "sunken eyes in a baby",
+        "cold hands and feet"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Emergency Medicine",
+      "age_notes": "Baby or child: Pediatrician urgently. Older adults are at higher risk.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "Blood pressure and pulse",
+        "Electrolytes and kidney function",
+        "Urine R/E"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/dehydration/"
+    },
+    {
+      "id": "scabies",
+      "symptom_keywords": [
+        "scabies",
+        "intense itching at night",
+        "itchy rash between fingers",
+        "khujli",
+        "raat ko khaarish",
+        "ungliyon ke beech daane",
+        "کھجلی",
+        "رات کو خارش",
+        "انگلیوں کے بیچ دانے"
+      ],
+      "description": "Skin infestation by tiny mites causing intense itching, worse at night, with a rash often between fingers, wrists and waist. Spreads through close contact.",
+      "care_category": "Skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "skin becomes red, hot and painful",
+        "pus or sores",
+        "fever",
+        "baby under 2 months with rash"
+      ],
+      "specialist": "Dermatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Baby or child: Pediatrician. All close contacts and family members need treatment.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Skin examination",
+        "Skin scraping if unclear"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/scabies/"
+    },
+    {
+      "id": "ringworm",
+      "symptom_keywords": [
+        "ringworm",
+        "fungal infection",
+        "ring shaped rash",
+        "itchy patch",
+        "daad",
+        "khaarish",
+        "gol daane",
+        "داد",
+        "خارش",
+        "گول دانے"
+      ],
+      "description": "Common fungal skin infection causing a red, ring-shaped itchy patch with a clearer centre. Spreads by touch or shared towels.",
+      "care_category": "Skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "spreading quickly",
+        "pus or swelling",
+        "fever",
+        "scalp infection with hair loss",
+        "no improvement after 2 weeks of treatment"
+      ],
+      "specialist": "Dermatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child scalp ringworm: Pediatrician or Dermatologist.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Skin examination",
+        "Skin scraping (KOH test) if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/ringworm/"
+    },
+    {
+      "id": "atopic_eczema",
+      "symptom_keywords": [
+        "eczema",
+        "dry itchy skin",
+        "red patches",
+        "skin rash",
+        "itchy skin",
+        "ekzima",
+        "khushk khaarish wali jild",
+        "jild par laal nishan",
+        "ایکزیما",
+        "خشک خارش والی جلد",
+        "جلد پر لال نشان"
+      ],
+      "description": "Long-term skin condition causing dry, itchy, red and cracked skin, often in skin folds. Common in children and tends to flare up and settle.",
+      "care_category": "Skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "skin weeping, crusting or very painful",
+        "fever",
+        "spreading rash",
+        "eczema near the eyes",
+        "no response to moisturiser and cream"
+      ],
+      "specialist": "Dermatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Baby or child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Skin examination",
+        "Allergy tests if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/atopic-eczema/"
+    },
+    {
+      "id": "acne",
+      "symptom_keywords": [
+        "acne",
+        "pimples",
+        "blackheads",
+        "oily skin",
+        "spots on face",
+        "muhase",
+        "chehre par daane",
+        "tail wali jild",
+        "مہاسے",
+        "چہرے پر دانے",
+        "تیل والی جلد"
+      ],
+      "description": "Common skin condition with spots, blackheads and pimples on the face, chest and back, mostly in teenagers and young adults.",
+      "care_category": "Skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "painful deep cysts",
+        "scarring",
+        "severe acne with mood changes",
+        "acne with irregular periods or excess hair"
+      ],
+      "specialist": "Dermatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Teenager: Dermatologist or Pediatrician.",
+      "gender_notes": "Acne with irregular periods or excess hair growth in women: see Gynecologist for PCOS check.",
+      "baseline_tests": [
+        "Skin examination",
+        "Hormone tests if irregular periods or excess hair"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/acne/"
+    },
+    {
+      "id": "psoriasis",
+      "symptom_keywords": [
+        "psoriasis",
+        "scaly patches",
+        "thick red patches",
+        "silvery scales",
+        "itchy plaques",
+        "sorayasis",
+        "moti tehen wali jild",
+        "chilke wale nishan",
+        "چنبل",
+        "موٹی تہہ والی جلد",
+        "چھلکے والے نشان"
+      ],
+      "description": "Long-term skin condition causing thick red patches covered with silvery scales, often on elbows, knees and scalp. Can come with joint pain.",
+      "care_category": "Skin condition",
+      "urgency": "routine",
+      "red_flags": [
+        "joint pain and swelling",
+        "widespread red skin",
+        "pus-filled blisters",
+        "fever"
+      ],
+      "specialist": "Dermatologist",
+      "alt_specialist": "Rheumatologist",
+      "age_notes": "Child: Pediatrician or Dermatologist.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Skin examination",
+        "Skin biopsy if unclear",
+        "Joint examination if joint pain"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/psoriasis/"
+    },
+    {
+      "id": "conjunctivitis",
+      "symptom_keywords": [
+        "conjunctivitis",
+        "pink eye",
+        "red eye",
+        "sticky eye",
+        "watery eyes",
+        "gritty eyes",
+        "aankh aana",
+        "aankh laal",
+        "aankh se pani",
+        "آنکھ آنا",
+        "آنکھ لال",
+        "آنکھ سے پانی"
+      ],
+      "description": "Red, sore, watery or sticky eyes caused by infection or allergy. Usually settles in 1 to 2 weeks.",
+      "care_category": "Eye condition",
+      "urgency": "routine",
+      "red_flags": [
+        "severe eye pain",
+        "vision loss or blurred vision",
+        "light sensitivity",
+        "injury to the eye",
+        "newborn with red eye"
+      ],
+      "specialist": "Ophthalmologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Newborn with sticky eye: urgent Pediatrician. Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Eye examination",
+        "Swab if severe or not improving"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/conjunctivitis/"
+    },
+    {
+      "id": "hay_fever",
+      "symptom_keywords": [
+        "hay fever",
+        "allergic rhinitis",
+        "sneezing",
+        "itchy eyes",
+        "runny nose",
+        "allergy",
+        "pollen allergy",
+        "allergy ki shikayat",
+        "chheenken",
+        "naak behna",
+        "aankhon mein khaarish",
+        "الرجی",
+        "چھینکیں",
+        "ناک بہنا",
+        "آنکھوں میں خارش"
+      ],
+      "description": "Allergic reaction to pollen or dust causing sneezing, runny or blocked nose and itchy eyes, often seasonal.",
+      "care_category": "Allergy condition",
+      "urgency": "routine",
+      "red_flags": [
+        "wheezing or chest tightness",
+        "swelling of lips or face",
+        "trouble breathing",
+        "symptoms not controlled with allergy tablets"
+      ],
+      "specialist": "ENT",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical examination",
+        "Allergy skin prick test or IgE if advised",
+        "CBC (eosinophils)"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/hay-fever/"
+    },
+    {
+      "id": "food_allergy",
+      "symptom_keywords": [
+        "food allergy",
+        "hives after eating",
+        "swollen lips",
+        "tingling mouth",
+        "allergic reaction",
+        "khane se allergy",
+        "hontho par soojan",
+        "jild par daane",
+        "کھانے سے الرجی",
+        "ہونٹوں پر سوجن",
+        "جلد پر دانے"
+      ],
+      "description": "Immune reaction to a food such as nuts, eggs, milk or shellfish. Can cause hives, swelling and vomiting, and rarely a life-threatening reaction (anaphylaxis).",
+      "care_category": "Allergy condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "swelling of lips, tongue or throat",
+        "trouble breathing or wheezing",
+        "feeling faint or collapse",
+        "fast heartbeat",
+        "widespread hives with breathlessness"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Dermatologist",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical history",
+        "Allergy skin prick test or specific IgE",
+        "CBC (eosinophils)"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/food-allergy/"
+    },
+    {
+      "id": "back_pain",
+      "symptom_keywords": [
+        "back pain",
+        "lower back pain",
+        "backache",
+        "stiff back",
+        "pain going down leg",
+        "sciatica",
+        "kamar dard",
+        "kamar mein dard",
+        "tang mein dard",
+        "dard taang tak",
+        "کمر درد",
+        "کمر میں درد",
+        "ٹانگ تک درد"
+      ],
+      "description": "Very common problem, usually from muscle or joint strain, that often improves within weeks. Staying active helps recovery.",
+      "care_category": "Muscle and bone condition",
+      "urgency": "routine",
+      "red_flags": [
+        "numbness around the genitals or buttocks",
+        "loss of bladder or bowel control",
+        "weakness in legs",
+        "fever with back pain",
+        "pain after a fall or injury",
+        "history of cancer"
+      ],
+      "specialist": "Orthopedic Surgeon",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child with back pain: Pediatrician. Adults over 50 with new severe pain: see doctor soon.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical and spine examination",
+        "X-ray spine if advised",
+        "MRI if nerve symptoms",
+        "Vitamin D and calcium tests if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/back-pain/"
+    },
+    {
+      "id": "osteoarthritis",
+      "symptom_keywords": [
+        "osteoarthritis",
+        "knee pain",
+        "joint pain",
+        "stiff joints",
+        "pain on walking",
+        "jodon ka dard",
+        "ghutne ka dard",
+        "akarhan",
+        "جوڑوں کا درد",
+        "گھٹنے کا درد",
+        "اکڑاہٹ"
+      ],
+      "description": "Joint condition where cartilage wears down, causing pain and stiffness in knees, hips and hands, often worse after activity.",
+      "care_category": "Muscle and bone condition",
+      "urgency": "routine",
+      "red_flags": [
+        "hot, red and swollen joint",
+        "fever with joint pain",
+        "sudden inability to walk",
+        "severe night pain",
+        "joint locked in position"
+      ],
+      "specialist": "Orthopedic Surgeon",
+      "alt_specialist": "Rheumatologist",
+      "age_notes": "Mostly adults over 45.",
+      "gender_notes": "More common in women after menopause.",
+      "baseline_tests": [
+        "Joint examination",
+        "X-ray of affected joint",
+        "Vitamin D and calcium tests",
+        "ESR and CRP if unclear"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/osteoarthritis/"
+    },
+    {
+      "id": "rheumatoid_arthritis",
+      "symptom_keywords": [
+        "rheumatoid arthritis",
+        "morning stiffness",
+        "swollen joints",
+        "symmetrical joint pain",
+        "tiredness",
+        "gathiya",
+        "jodon mein soojan",
+        "subah akarhan",
+        "گٹھیا",
+        "جوڑوں میں سوجن",
+        "صبح اکڑاہٹ"
+      ],
+      "description": "Autoimmune condition causing painful, swollen and stiff joints on both sides of the body, worst in the morning and lasting over an hour.",
+      "care_category": "Autoimmune condition",
+      "urgency": "routine",
+      "red_flags": [
+        "hot and very swollen joint",
+        "fever",
+        "chest pain or breathlessness",
+        "eye pain or redness",
+        "sudden weakness"
+      ],
+      "specialist": "Rheumatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child with joint swelling: Pediatrician.",
+      "gender_notes": "More common in women.",
+      "baseline_tests": [
+        "RA factor and anti-CCP",
+        "ESR and CRP",
+        "CBC",
+        "X-ray of hands and feet",
+        "Liver and kidney function"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/rheumatoid-arthritis/"
+    },
+    {
+      "id": "gout",
+      "symptom_keywords": [
+        "gout",
+        "sudden joint pain",
+        "swollen big toe",
+        "red hot joint",
+        "uric acid",
+        "toe ka dard",
+        "uric acid zyada",
+        "angoothe mein dard",
+        "گاؤٹ",
+        "انگوٹھے میں درد",
+        "یورک ایسڈ"
+      ],
+      "description": "Sudden, severe pain, redness and swelling in a joint, often the big toe, caused by uric acid crystals. Attacks last days to weeks.",
+      "care_category": "Muscle and bone condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "fever with hot swollen joint",
+        "several joints involved",
+        "first attack",
+        "pain not improving after 2 days"
+      ],
+      "specialist": "Rheumatologist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Mostly adults.",
+      "gender_notes": "More common in men and in women after menopause.",
+      "baseline_tests": [
+        "Serum uric acid",
+        "CBC, ESR and CRP",
+        "Kidney function",
+        "Joint fluid test if advised",
+        "X-ray of the joint"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/gout/"
+    },
+    {
+      "id": "depression",
+      "symptom_keywords": [
+        "depression",
+        "low mood",
+        "sadness",
+        "hopelessness",
+        "loss of interest",
+        "poor sleep",
+        "udaasi",
+        "dil nahi lagta",
+        "naumeedi",
+        "neend ki kami",
+        "ڈپریشن",
+        "اداسی",
+        "دل نہیں لگتا",
+        "ناامیدی"
+      ],
+      "description": "Persistent low mood, loss of interest and energy, sleep and appetite changes. It is a common, treatable illness.",
+      "care_category": "Mental health condition",
+      "urgency": "routine",
+      "red_flags": [
+        "thoughts of self-harm or suicide",
+        "feeling that life is not worth living",
+        "hearing voices",
+        "unable to care for yourself or others"
+      ],
+      "specialist": "Psychiatrist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Teenagers and children: Child Psychiatrist or Pediatrician.",
+      "gender_notes": "Women after childbirth with low mood: Psychiatrist and Gynecologist.",
+      "baseline_tests": [
+        "Clinical interview (PHQ-9 questionnaire)",
+        "TSH and CBC to rule out medical causes",
+        "Vitamin B12 and D if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/mental-health/conditions/depression-in-adults/"
+    },
+    {
+      "id": "anxiety_gad",
+      "symptom_keywords": [
+        "anxiety",
+        "worry",
+        "panic",
+        "restlessness",
+        "racing heart",
+        "ghabrahat",
+        "fikar",
+        "dar lagna",
+        "bechaini",
+        "گھبراہٹ",
+        "فکر",
+        "ڈر لگنا",
+        "بے چینی"
+      ],
+      "description": "Ongoing feelings of worry or fear that are hard to control, with restlessness, poor sleep, tension and sometimes a racing heart.",
+      "care_category": "Mental health condition",
+      "urgency": "routine",
+      "red_flags": [
+        "chest pain",
+        "thoughts of self-harm",
+        "panic attacks that do not settle",
+        "unable to function at work or home"
+      ],
+      "specialist": "Psychiatrist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Children and teenagers: Child Psychiatrist or Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Clinical interview (GAD-7 questionnaire)",
+        "TSH",
+        "ECG if palpitations",
+        "CBC"
+      ],
+      "source": "NHS: https://www.nhs.uk/mental-health/conditions/generalised-anxiety-disorder-gad/"
+    },
+    {
+      "id": "insomnia",
+      "symptom_keywords": [
+        "insomnia",
+        "cannot sleep",
+        "poor sleep",
+        "waking at night",
+        "tired in day",
+        "neend na aana",
+        "raat ko neend nahi",
+        "neend poori nahi",
+        "نیند نہ آنا",
+        "رات کو نیند نہیں",
+        "نیند پوری نہیں"
+      ],
+      "description": "Difficulty falling asleep or staying asleep, leaving you tired and low in energy during the day.",
+      "care_category": "Sleep condition",
+      "urgency": "routine",
+      "red_flags": [
+        "thoughts of self-harm",
+        "loud snoring with pauses in breathing",
+        "falling asleep while driving",
+        "symptoms for more than 1 month"
+      ],
+      "specialist": "General Physician",
+      "alt_specialist": "Psychiatrist",
+      "age_notes": "Child: Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Sleep history",
+        "TSH",
+        "CBC",
+        "Sleep study only if sleep apnoea suspected"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/insomnia/"
+    },
+    {
+      "id": "pcos_pmos",
+      "symptom_keywords": [
+        "pcos",
+        "irregular periods",
+        "missed periods",
+        "excess hair",
+        "acne",
+        "weight gain",
+        "mahwari ki be tarteebi",
+        "periods late",
+        "chehre par baal",
+        "پی سی او ایس",
+        "ماہواری کی بے ترتیبی",
+        "پیریڈز لیٹ",
+        "چہرے پر بال"
+      ],
+      "description": "Hormone condition in women causing irregular or missed periods, excess facial or body hair, acne and weight gain. Often linked to cysts on the ovaries and insulin resistance.",
+      "care_category": "Women's health condition",
+      "urgency": "routine",
+      "red_flags": [
+        "very heavy bleeding",
+        "severe pelvic pain",
+        "no periods for more than 3 months with possible pregnancy",
+        "signs of diabetes (thirst, frequent urination)"
+      ],
+      "specialist": "Gynecologist",
+      "alt_specialist": "Endocrinologist",
+      "age_notes": "Teenage girls: Gynecologist or Pediatrician.",
+      "gender_notes": "Applies to women only.",
+      "baseline_tests": [
+        "Pelvic ultrasound",
+        "Hormone tests (LH, FSH, testosterone, prolactin, TSH)",
+        "Fasting blood sugar and lipid profile",
+        "Pregnancy test"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/"
+    },
+    {
+      "id": "ectopic_pregnancy",
+      "symptom_keywords": [
+        "ectopic pregnancy",
+        "pregnancy with severe pain",
+        "one-sided lower abdominal pain",
+        "vaginal bleeding",
+        "shoulder tip pain",
+        "hamal mein dard",
+        "pait ke neeche ek taraf dard",
+        "khoon aana",
+        "حمل میں درد",
+        "پیٹ کے نیچے ایک طرف درد",
+        "خون آنا"
+      ],
+      "description": "Pregnancy that grows outside the womb, usually in a fallopian tube. It can cause severe one-sided belly pain and bleeding and is a life-threatening emergency.",
+      "care_category": "Pregnancy emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "sudden severe lower belly pain",
+        "vaginal bleeding with pain",
+        "pain at the tip of the shoulder",
+        "feeling faint or collapse",
+        "missed period with pain"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Gynecologist",
+      "age_notes": "Applies to women of childbearing age.",
+      "gender_notes": "Applies to women only.",
+      "baseline_tests": [
+        "Pregnancy test (urine and blood hCG)",
+        "Transvaginal ultrasound",
+        "CBC and blood group"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/ectopic-pregnancy/"
+    },
+    {
+      "id": "pre_eclampsia",
+      "symptom_keywords": [
+        "pre-eclampsia",
+        "pregnancy high blood pressure",
+        "swelling in pregnancy",
+        "severe headache in pregnancy",
+        "vision problems in pregnancy",
+        "hamal mein bp",
+        "hamal mein soojan",
+        "hamal mein sar dard",
+        "حمل میں بی پی",
+        "حمل میں سوجن",
+        "حمل میں سر درد"
+      ],
+      "description": "Pregnancy condition with high blood pressure and protein in urine, usually after 20 weeks. Can cause headache, vision changes and swelling and can be dangerous for mother and baby.",
+      "care_category": "Pregnancy condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "severe headache",
+        "blurred vision or flashing lights",
+        "pain just under the ribs",
+        "sudden swelling of face, hands or feet",
+        "seizure",
+        "baby moving less"
+      ],
+      "specialist": "Gynecologist",
+      "alt_specialist": "Emergency Medicine",
+      "age_notes": "Applies to pregnant women only.",
+      "gender_notes": "Applies to women only.",
+      "baseline_tests": [
+        "Blood pressure",
+        "Urine protein",
+        "CBC and platelets",
+        "Liver and kidney function tests",
+        "Ultrasound for baby"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/pre-eclampsia/"
+    },
+    {
+      "id": "head_injury",
+      "symptom_keywords": [
+        "head injury",
+        "concussion",
+        "hit on head",
+        "fall on head",
+        "vomiting after head injury",
+        "sar par chot",
+        "girne se sar par chot",
+        "behoshi",
+        "سر پر چوٹ",
+        "گرنے سے سر پر چوٹ",
+        "بے ہوشی"
+      ],
+      "description": "Blow or fall to the head. Most are minor but some cause concussion or bleeding in the brain that needs urgent checking.",
+      "care_category": "Injury",
+      "urgency": "urgent",
+      "red_flags": [
+        "loss of consciousness",
+        "repeated vomiting",
+        "seizure",
+        "confusion or drowsiness",
+        "clear fluid or blood from nose or ear",
+        "weakness or slurred speech",
+        "worsening headache"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Neurologist",
+      "age_notes": "Child or baby with any head injury and vomiting or drowsiness: urgent Pediatrician or hospital.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Neurological examination",
+        "CT scan head if red flags",
+        "Blood tests if needed"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/head-injury-and-concussion/"
+    },
+    {
+      "id": "sepsis",
+      "symptom_keywords": [
+        "sepsis",
+        "blood poisoning",
+        "very high fever with confusion",
+        "fast breathing",
+        "mottled skin",
+        "khoon mein zeher",
+        "bukhar ke saath behoshi",
+        "bohat kamzori",
+        "خون میں زہر",
+        "بخار کے ساتھ بے ہوشی",
+        "بہت کمزوری"
+      ],
+      "description": "Life-threatening reaction to an infection where the body starts to damage its own organs. Signs include fever or very low temperature, fast breathing, confusion and a fast heartbeat.",
+      "care_category": "Infectious emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "confusion or slurred speech",
+        "fast breathing",
+        "very fast heartbeat",
+        "blue or mottled skin",
+        "very little urine",
+        "extreme shivering or severe muscle pain",
+        "feeling very unwell with infection"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Babies, older adults and people with weak immunity are at higher risk.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Blood culture",
+        "CBC and CRP",
+        "Lactate",
+        "Kidney and liver function",
+        "Urine culture and chest X-ray"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/sepsis/"
+    },
+    {
+      "id": "meningitis",
+      "symptom_keywords": [
+        "meningitis",
+        "stiff neck",
+        "severe headache",
+        "fever with rash",
+        "light sensitivity",
+        "gardan akarhna",
+        "bukhar aur sar dard",
+        "daane jo dabane se na jayen",
+        "میننجائٹس",
+        "گردن اکڑنا",
+        "بخار اور سر درد",
+        "روشنی سے تکلیف"
+      ],
+      "description": "Infection of the lining around the brain and spinal cord. Causes fever, severe headache, stiff neck, light sensitivity and sometimes a rash that does not fade when pressed.",
+      "care_category": "Neurological emergency",
+      "urgency": "emergency",
+      "red_flags": [
+        "stiff neck",
+        "severe headache",
+        "rash that does not fade under a pressed glass",
+        "confusion or drowsiness",
+        "seizure",
+        "baby with bulging soft spot or high-pitched cry",
+        "dislike of bright light"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "Infectious Disease Specialist",
+      "age_notes": "Babies and young children: urgent Pediatrician or hospital.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Lumbar puncture (CSF test)",
+        "Blood culture",
+        "CBC and CRP",
+        "CT scan head if advised"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/meningitis/"
+    },
+    {
+      "id": "rabies_animal_bite",
+      "symptom_keywords": [
+        "dog bite",
+        "animal bite",
+        "rabies",
+        "cat scratch",
+        "monkey bite",
+        "kutte ka katna",
+        "janwar ka katna",
+        "kutte ne kata",
+        "billi ka khaunch",
+        "کتے کا کاٹنا",
+        "جانور کا کاٹنا",
+        "کتے نے کاٹا",
+        "بلی کا خراش"
+      ],
+      "description": "Bite or scratch from a dog, cat or other animal can spread rabies, which is almost always fatal once symptoms start. Rabies vaccine and sometimes immunoglobulin must start as soon as possible after a bite.",
+      "care_category": "Injury and infection risk",
+      "urgency": "urgent",
+      "red_flags": [
+        "any bite or scratch from a dog, cat, bat or monkey",
+        "bite on face, neck or hands",
+        "deep or bleeding wound",
+        "animal acting strangely",
+        "fear of water or fever after a bite"
+      ],
+      "specialist": "Emergency Medicine",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: urgent Pediatrician or hospital.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Wound examination and washing with soap and water",
+        "Rabies post-exposure vaccine and immunoglobulin as advised by the doctor",
+        "Tetanus vaccination check"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/rabies/"
+    },
+    {
+      "id": "dental_abscess",
+      "symptom_keywords": [
+        "toothache",
+        "tooth abscess",
+        "swollen gum",
+        "facial swelling",
+        "pain on chewing",
+        "daant dard",
+        "daant mein pip",
+        "gaal par soojan",
+        "masoorhon mein soojan",
+        "دانت درد",
+        "دانت میں پیپ",
+        "گال پر سوجن",
+        "مسوڑھوں میں سوجن"
+      ],
+      "description": "Pocket of pus in the tooth or gum caused by infection, causing severe throbbing toothache, swelling, bad taste and fever.",
+      "care_category": "Dental condition",
+      "urgency": "urgent",
+      "red_flags": [
+        "swelling of the face or neck",
+        "trouble swallowing or breathing",
+        "fever",
+        "swelling spreading towards the eye",
+        "unable to open mouth"
+      ],
+      "specialist": "Dentist",
+      "alt_specialist": "General Physician",
+      "age_notes": "Child: Pediatric Dentist or Pediatrician.",
+      "gender_notes": "",
+      "baseline_tests": [
+        "Dental examination",
+        "Dental X-ray",
+        "CBC if fever or swelling"
+      ],
+      "source": "NHS: https://www.nhs.uk/conditions/dental-abscess/"
+    }
+  ]
+}

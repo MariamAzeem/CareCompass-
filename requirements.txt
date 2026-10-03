@@ -1,0 +1,11 @@
+streamlit>=1.40
+# CrewAI imports pkg_resources, which is not available in newer setuptools releases.
+# Pin setuptools to a compatible version for this project.
+setuptools<81
+# Tested with Python 3.11/3.12. Use a supported interpreter; CrewAI 0.11.2 expects a compatible Pydantic 2.x stack.
+crewai[litellm]==0.11.2
+supabase>=2.9
+requests
+beautifulsoup4
+pydantic>=2
+pysqlite3-binary; sys_platform == "linux"
